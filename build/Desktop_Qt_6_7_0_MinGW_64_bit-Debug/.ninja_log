@@ -5,5 +5,5 @@
 5	2988	7414763887744123	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
 2990	12755	7414763988055289	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	93692bc05ba0a322
 3036	12802	7414763988485258	CMakeFiles/Widgets.dir/main.cpp.obj	85143484c9fb8000
-3011	13005	7414763990595120	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	9b64412f4f4c2033
 13006	13850	7414763998365061	Widgets.exe	41e2c42fb89cdbc1
+3011	13005	7414763990595120	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	9b64412f4f4c2033

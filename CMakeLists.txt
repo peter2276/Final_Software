@@ -23,6 +23,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Widgets
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        alarma.h alarma.cpp
+        calefaccion.h calefaccion.cpp
+        lampara.h lampara.cpp
+        controlador.h controlador.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Widgets APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
