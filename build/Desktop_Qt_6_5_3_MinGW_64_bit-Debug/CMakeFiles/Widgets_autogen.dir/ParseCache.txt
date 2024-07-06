@@ -357,3 +357,4 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_So
 C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/systemmanager.h
 C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/port.cpp
 C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/systemmanager.cpp
+C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/states.h
