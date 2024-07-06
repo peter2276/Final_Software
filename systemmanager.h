@@ -1,5 +1,7 @@
 #ifndef SYSTEMMANAGER_H
 #define SYSTEMMANAGER_H
+
+#include <list>
 #include "alarm.h"
 #include "controller.h"
 #include "light.h"
@@ -13,9 +15,9 @@ public:
     Alarm * MyAlarm;
     Heater * MyHeater;
     std::list<Light> lights;
-    CreateAlarm(Controller*, Port);
-    CreateHeater(Controller*, Port);
-    CreateLight(Controller*, Port);
+    void CreateAlarm(Controller*, Port);
+    void CreateHeater(Controller*, Port);
+    void CreateLight(Controller*, Port);
 
 protected:
     SystemManager();

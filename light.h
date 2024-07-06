@@ -5,6 +5,8 @@ class Light
 {
 public:
     Light();
+private:
+
 };
 
 #endif // Light_H
