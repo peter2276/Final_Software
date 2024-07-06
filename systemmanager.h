@@ -4,6 +4,7 @@
 #include "controller.h"
 #include "light.h"
 #include "heater.h"
+#include "port.h"
 
 class SystemManager
 {
@@ -12,6 +13,9 @@ public:
     Alarm * MyAlarm;
     Heater * MyHeater;
     std::list<Light> lights;
+    CreateAlarm(Controller*, Port);
+    CreateHeater(Controller*, Port);
+    CreateLight(Controller*, Port);
 
 protected:
     SystemManager();

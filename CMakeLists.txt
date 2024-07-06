@@ -28,6 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         light.h light.cpp
         controller.h controller.cpp
         systemmanager.h systemmanager.cpp
+        port.h port.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Widgets APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
