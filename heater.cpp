@@ -1,3 +1,3 @@
 #include "heater.h"
 
-Calefaccion::Calefaccion() {}
+Heater::Heater() {}

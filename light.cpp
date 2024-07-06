@@ -1,3 +1,3 @@
 #include "light.h"
 
-Lampara::Lampara() {}
+Light::Light() {}

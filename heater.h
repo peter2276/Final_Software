@@ -1,10 +1,10 @@
 #ifndef HEATER_H
 #define HEATER_H
 
-class Calefaccion
+class Heater
 {
 public:
-    Calefaccion();
+    Heater();
 };
 
 #endif // HEATER_H

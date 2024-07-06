@@ -1,3 +1,3 @@
 #include "alarm.h"
 
-Alarma::Alarma() {}
+Alarm::Alarm() {}

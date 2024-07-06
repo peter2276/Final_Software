@@ -1,10 +1,12 @@
 #ifndef ALARM_H
 #define ALARM_H
 
-class Alarma
+class Alarm
 {
 public:
-    Alarma();
+    Alarm();
+    static Alarm();
+
 };
 
 #endif // ALARM_H

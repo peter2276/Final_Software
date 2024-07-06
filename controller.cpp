@@ -1,3 +1,3 @@
-#include "controlador.h"
+#include "controller.h"
 
-Controlador::Controlador() {}
+Controller::Controller() {}
