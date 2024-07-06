@@ -1,3 +1,3 @@
-#include "alarma.h"
+#include "alarm.h"
 
 Alarma::Alarma() {}

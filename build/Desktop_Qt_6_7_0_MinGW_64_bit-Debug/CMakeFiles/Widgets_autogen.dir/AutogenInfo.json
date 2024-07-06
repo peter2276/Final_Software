@@ -255,27 +255,27 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarma.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h",
 			"MU",
-			"EWIEGA46WW/moc_alarma.cpp",
+			"EWIEGA46WW/moc_alarm.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/calefaccion.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h",
 			"MU",
-			"EWIEGA46WW/moc_calefaccion.cpp",
+			"EWIEGA46WW/moc_controller.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controlador.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h",
 			"MU",
-			"EWIEGA46WW/moc_controlador.cpp",
+			"EWIEGA46WW/moc_heater.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/lampara.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h",
 			"MU",
-			"EWIEGA46WW/moc_lampara.cpp",
+			"EWIEGA46WW/moc_light.cpp",
 			null
 		],
 		[
@@ -357,22 +357,22 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarma.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/calefaccion.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controlador.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/lampara.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.cpp",
 			"MU",
 			null
 		],

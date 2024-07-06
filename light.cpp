@@ -1,3 +1,3 @@
-#include "lampara.h"
+#include "light.h"
 
 Lampara::Lampara() {}
