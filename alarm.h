@@ -5,8 +5,11 @@ class Alarm
 {
 public:
     Alarm();
-    static Alarm();
-
+    static Alarm* getInstance();
+protected:
+    Alarm();
+private:
+    static Alarm* instance;
 };
 
 #endif // ALARM_H

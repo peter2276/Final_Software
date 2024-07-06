@@ -5,6 +5,11 @@ class Heater
 {
 public:
     Heater();
+    static Heater* getInstance();
+protected:
+    Heater();
+private:
+    static Heater* instance;
 };
 
 #endif // HEATER_H
