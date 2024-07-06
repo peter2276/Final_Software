@@ -4,7 +4,6 @@
 class Heater
 {
 public:
-    Heater();
     static Heater* getInstance();
 protected:
     Heater();

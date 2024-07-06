@@ -4,7 +4,6 @@
 class Controller
 {
 public:
-    Controller();
     static Controller* getInstance();
 protected:
     Controller();

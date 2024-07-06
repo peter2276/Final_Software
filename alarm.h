@@ -4,7 +4,6 @@
 class Alarm
 {
 public:
-    Alarm();
     static Alarm* getInstance();
 protected:
     Alarm();

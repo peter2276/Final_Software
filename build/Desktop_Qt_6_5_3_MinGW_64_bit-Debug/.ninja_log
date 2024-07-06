@@ -1,0 +1,31 @@
+# ninja log v6
+10	790	7420036428437815	Widgets_autogen/timestamp	600204047788dc76
+10	790	7420036428437815	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+10	790	7420036428437815	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+10	790	7420036428437815	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+816	928	7420036429998470	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
+820	929	7420036430038358	CMakeFiles/Widgets.dir/light.cpp.obj	d8d500273ab2bea4
+826	952	7420036430098197	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
+801	3227	7420036429858840	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
+807	3313	7420036429908706	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+797	3717	7420036429804403	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+59	469	7420036993302123	Widgets_autogen/timestamp	600204047788dc76
+59	469	7420036993302123	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+59	469	7420036993302123	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+59	469	7420036993302123	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+471	2610	7420036997430489	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+36	207	7420039949408583	Widgets_autogen/timestamp	600204047788dc76
+36	207	7420039949408583	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+36	207	7420039949408583	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+36	207	7420039949408583	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+220	332	7420039951253680	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
+233	339	7420039951383388	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
+245	343	7420039951502992	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
+210	2300	7420039951153924	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+2300	2672	7420039972054929	Widgets.exe	566aa0766f786829
+51	476	7420040129228828	Widgets_autogen/timestamp	600204047788dc76
+51	476	7420040129228828	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+51	476	7420040129228828	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+51	476	7420040129228828	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+477	2514	7420040133487057	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+2514	2725	7420040153852469	Widgets.exe	566aa0766f786829
