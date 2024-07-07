@@ -16,7 +16,7 @@ public:
     Heater * MyHeater;
     std::list<Light> lights;
     void CreateAlarm(Controller*, Port);
-    void CreateHeater(Controller*, Port);
+    void CreateHeater(Controller*, Port act, Port sensor);
     void CreateLight(Controller*, Port);
 
 protected:
