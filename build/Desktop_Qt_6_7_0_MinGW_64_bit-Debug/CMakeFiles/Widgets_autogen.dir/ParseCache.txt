@@ -360,6 +360,7 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.h
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/states.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp
@@ -368,3 +369,4 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.cpp
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h

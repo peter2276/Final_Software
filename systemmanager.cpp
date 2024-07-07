@@ -51,14 +51,14 @@ void SystemManager::ToggleHeater(){
     }
 }
 bool SystemManager::GetHeaterState(){
-    return MyHeater->();
+    return MyHeater->getState();
 }
 
 void SystemManager::CreateLight(Port P){
-    l = new Light;
-    l.setPort(P);
-    l.setController(this->board);
-    lights.push_back(l);
+    auto l = new Light;
+    l->setPort(P);
+    l->setController(this->board);
+    lights.push_back(&l);
 }
 void SystemManager::LightOn(int id){
     if(lights.size() > id && id >= 0){

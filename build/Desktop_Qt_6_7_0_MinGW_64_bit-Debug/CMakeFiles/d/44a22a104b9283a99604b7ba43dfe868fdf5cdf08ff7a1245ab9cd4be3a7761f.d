@@ -536,6 +536,7 @@ Widgets_autogen/timestamp: \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.ui \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.cpp \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/states.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h

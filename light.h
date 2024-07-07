@@ -7,6 +7,7 @@ class Light: public Utility
 {
 public:
     Light();
+    void setPort(Port);
     void setActuatorOn();
     void setActuatorOff();
     bool getState();

@@ -1,6 +1,7 @@
 #ifndef SYSTEMMANAGER_H
 #define SYSTEMMANAGER_H
 
+#include <stdlib.h>
 #include <list>
 #include "alarm.h"
 #include "controller.h"
