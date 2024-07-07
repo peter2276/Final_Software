@@ -6,6 +6,7 @@
 int main(int argc, char *argv[])
 {
     SystemManager* Manager = SystemManager::getInstance();
+    manager->CreateController();
     QApplication a(argc, argv);
     MainWindow w;
     w.show();

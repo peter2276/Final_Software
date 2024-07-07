@@ -11,19 +11,26 @@ SystemManager* SystemManager::getInstance(){
     return instance;
 }
 
-void SystemManager::CreateAlarm(Controller*, Port){
+void SystemManager::CreateAlarm(Port P){
     //MyAlarm = Alarm::getInstance();
+    //MyAlarm->setContoller(this->board)
 }
-void SystemManager::CreateHeater(Controller* board, Port act,Port sensor ){
+void SystemManager::CreateHeater(Port act,Port sensor ){
     MyHeater = Heater::getInstance();
-    MyHeater->setController(board);
+    MyHeater->setController(this->board);
     MyHeater->setActuator(act);
     MyHeater->setSensor(sensor);
 }
-void SystemManager::CreateLight(Controller*, Port P){
+void SystemManager::CreateLight(Port P){
     /*
     l = new light;
     l.setPort(P);
     lights.push_front(l);
     */
+}
+
+void SystemManager::CreateController(){
+    if (board==NULL){
+        board = new Controller;
+    }
 }

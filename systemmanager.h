@@ -15,13 +15,15 @@ public:
     Alarm * MyAlarm;
     Heater * MyHeater;
     std::list<Light> lights;
-    void CreateAlarm(Controller*, Port);
-    void CreateHeater(Controller*, Port act, Port sensor);
-    void CreateLight(Controller*, Port);
+    void CreateAlarm(Port);
+    void CreateHeater(Port act, Port sensor);
+    void CreateLight(Port);
+    void CreateController();
 
 protected:
     SystemManager();
 private:
+    Controller* board;
     static SystemManager* instance;
 };
 
