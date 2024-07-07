@@ -21,12 +21,18 @@ void Alarm::setActuator(Port port){
     this->actuator = port;
 }
 
-void Alarm::assembleAlarm(){
-    this->state = StateType::ARMED;
-}
-
-void Alarm::disassembleAlarm(){
-    this->state = StateType::DISARMED;
+bool Alarm::toggleAlarm(std::string pass){
+    if (this->checkPassword(pass)){
+        if (this->state == StateType::ARMED || this->state == StateType::ALARM){
+            this->state = StateType::DISARMED;
+        }
+        else if (this->state == StateType::DISARMED){
+            this->state = StateType::ARMED;
+        }
+        return 1;
+    }
+    else
+        return 0;
 }
 
 void Alarm::setPassword(std::string password){

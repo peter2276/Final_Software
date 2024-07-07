@@ -17,14 +17,13 @@ public:
     static Alarm* getInstance();
     void newSensor(Port port);
     void setActuator(Port port);
-    void assembleAlarm();
-    void disassembleAlarm();
+    bool toggleAlarm(std::string pass);
     void setPassword(std::string password);
     std::string getState();
-    bool checkPassword(std::string password);
 protected:
     Alarm();
 private:
+    bool checkPassword(std::string pass);
     std::string password;
     static Alarm* instance;
     std::list<Port> sensors;
