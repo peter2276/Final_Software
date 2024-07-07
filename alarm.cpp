@@ -33,3 +33,15 @@ void Alarm::setPassword(std::string password){
     this->password = password;
 }
 
+std::string Alarm::getState(){
+    if (this->state == StateType::ARMED){
+        return "ARMED";
+    }
+    else if (this->state == StateType::DISARMED){
+        return "DISARMED";
+    }
+    else if (this->state == StateType::ALARM){
+        return "ALARM";
+    }
+}
+

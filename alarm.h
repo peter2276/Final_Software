@@ -2,9 +2,14 @@
 #define ALARM_H
 
 #include "utility.h"
-#include "states.h"
 #include <list>
 #include <string>
+
+enum StateType {
+    ARMED,
+    DISARMED,
+    ALARM
+};
 
 class Alarm: public Utility
 {
@@ -15,6 +20,7 @@ public:
     void assembleAlarm();
     void disassembleAlarm();
     void setPassword(std::string password);
+    std::string getState();
 protected:
     Alarm();
 private:
