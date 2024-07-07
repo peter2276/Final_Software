@@ -3,7 +3,6 @@
 SystemManager* SystemManager::instance = 0;
 
 SystemManager::SystemManager() {}
-
 SystemManager* SystemManager::getInstance(){
     if (instance == 0){
         instance = new SystemManager;
@@ -21,9 +20,11 @@ void SystemManager::AddSensor(Port sensor){
 }
 bool SystemManager::SetPassword(std::string pass){
     return MyAlarm->setPassword(pass);
+
 }
 bool SystemManager::ToggleAlarm(std::string pass){
     return MyAlarm->toggleAlarm(pass);
+
 }
 std::string SystemManager::CheckAlarm(){
     return MyAlarm->getState();

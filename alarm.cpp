@@ -35,8 +35,12 @@ bool Alarm::toggleAlarm(std::string pass){
         return 0;
 }
 
-void Alarm::setPassword(std::string password){
-    this->password = password;
+bool Alarm::setPassword(std::string Actualpassword,std::string Newpassword){
+    if(this->checkPassword(Actualpassword)){
+        this->password = Newpassword;
+        return 1;
+    }
+    else return 0;
 }
 
 std::string Alarm::getState(){
