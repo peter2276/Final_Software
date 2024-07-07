@@ -121,6 +121,14 @@ build CMakeFiles/Widgets.dir/port.cpp.obj: CXX_COMPILER__Widgets_unscanned_Debug
   OBJECT_DIR = CMakeFiles\Widgets.dir
   OBJECT_FILE_DIR = CMakeFiles\Widgets.dir
 
+build CMakeFiles/Widgets.dir/utility.cpp.obj: CXX_COMPILER__Widgets_unscanned_Debug C$:/Users/Usuario/Documents/Franco/uni/5to/arq$ de$ software/Trabajo$ final/Final_Software/utility.cpp || cmake_object_order_depends_target_Widgets
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Widgets.dir\utility.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/include" -isystem C:/Qt/6.5.3/mingw_64/include/QtCore -isystem C:/Qt/6.5.3/mingw_64/include -isystem C:/Qt/6.5.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.5.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.5.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Widgets.dir
+  OBJECT_FILE_DIR = CMakeFiles\Widgets.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Widgets
@@ -129,7 +137,7 @@ build CMakeFiles/Widgets.dir/port.cpp.obj: CXX_COMPILER__Widgets_unscanned_Debug
 #############################################
 # Link the executable Widgets.exe
 
-build Widgets.exe: CXX_EXECUTABLE_LINKER__Widgets_Debug CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj CMakeFiles/Widgets.dir/main.cpp.obj CMakeFiles/Widgets.dir/mainwindow.cpp.obj CMakeFiles/Widgets.dir/alarm.cpp.obj CMakeFiles/Widgets.dir/heater.cpp.obj CMakeFiles/Widgets.dir/light.cpp.obj CMakeFiles/Widgets.dir/controller.cpp.obj CMakeFiles/Widgets.dir/systemmanager.cpp.obj CMakeFiles/Widgets.dir/port.cpp.obj | C$:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.5.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.5.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.3/mingw_64/lib/libQt6EntryPoint.a || Widgets_autogen Widgets_autogen_timestamp_deps
+build Widgets.exe: CXX_EXECUTABLE_LINKER__Widgets_Debug CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj CMakeFiles/Widgets.dir/main.cpp.obj CMakeFiles/Widgets.dir/mainwindow.cpp.obj CMakeFiles/Widgets.dir/alarm.cpp.obj CMakeFiles/Widgets.dir/heater.cpp.obj CMakeFiles/Widgets.dir/light.cpp.obj CMakeFiles/Widgets.dir/controller.cpp.obj CMakeFiles/Widgets.dir/systemmanager.cpp.obj CMakeFiles/Widgets.dir/port.cpp.obj CMakeFiles/Widgets.dir/utility.cpp.obj | C$:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.5.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.5.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.5.3/mingw_64/lib/libQt6EntryPoint.a || Widgets_autogen Widgets_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.5.3/mingw_64/lib/libQt6Gui.a  C:/Qt/6.5.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.5.3/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

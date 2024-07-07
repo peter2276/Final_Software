@@ -1,7 +1,7 @@
 #ifndef Light_H
 #define Light_H
 
-#include "controller.h"
+#include "utility.h"
 
 class Light: public Utility
 {

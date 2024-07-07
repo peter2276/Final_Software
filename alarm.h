@@ -1,7 +1,7 @@
 #ifndef ALARM_H
 #define ALARM_H
 
-#include "controller.h"
+#include "utility.h"
 #include "states.h"
 #include <list>
 #include <string>

@@ -1,37 +1,15 @@
 # ninja log v6
-40	339	7420085631150910	Widgets_autogen/timestamp	600204047788dc76
-40	339	7420085631150910	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-40	339	7420085631150910	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-353	1292	7420085634271727	CMakeFiles/Widgets.dir/light.cpp.obj	d8d500273ab2bea4
-40	339	7420085631150910	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-347	1292	7420085634211884	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
-357	1156	7420085634321591	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
-801	3227	7420036429858840	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
-341	3011	7420085634152036	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-797	3717	7420036429804403	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
-220	332	7420039951253680	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
-3011	3236	7420085660860848	Widgets.exe	9ed12b8c9e20ec1f
-382	1290	7420085634561007	CMakeFiles/Widgets.dir/port.cpp.obj	b7c529d3d98df9ff
-363	1291	7420085634371459	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
-51	435	7420121843486742	Widgets_autogen/timestamp	600204047788dc76
-51	435	7420121843486742	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-51	435	7420121843486742	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-51	435	7420121843486742	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-460	1067	7420121847568819	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
-443	1088	7420121847399441	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
-437	2820	7420121847342674	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-30	222	7420122610317363	Widgets_autogen/timestamp	600204047788dc76
-30	222	7420122610317363	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-30	222	7420122610317363	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-30	222	7420122610317363	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-227	879	7420122612285235	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
-223	2589	7420122612249318	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-2589	2809	7420122635915144	Widgets.exe	9ed12b8c9e20ec1f
 49	767	7420129271367174	Widgets_autogen/timestamp	600204047788dc76
 49	767	7420129271367174	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
 49	767	7420129271367174	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-49	767	7420129271367174	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
 772	1126	7420129278593711	CMakeFiles/Widgets.dir/light.cpp.obj	d8d500273ab2bea4
-776	1153	7420129278635686	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
+49	767	7420129271367174	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+347	1292	7420085634211884	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
+357	1156	7420085634321591	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
+801	3227	7420036429858840	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
 768	2722	7420129278553815	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+797	3717	7420036429804403	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+227	879	7420122612285235	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
 2722	2928	7420129298100489	Widgets.exe	9ed12b8c9e20ec1f
+382	1290	7420085634561007	CMakeFiles/Widgets.dir/port.cpp.obj	b7c529d3d98df9ff
+776	1153	7420129278635686	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
