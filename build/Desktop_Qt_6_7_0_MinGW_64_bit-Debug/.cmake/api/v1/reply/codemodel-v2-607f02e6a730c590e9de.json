@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-54208e71bfd13eb70534.json",
+					"jsonFile" : "directory-.-Debug-12c25b1a765702366eb3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Widgets::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Widgets-Debug-94c27d3de34b9041a1c3.json",
+					"jsonFile" : "target-Widgets-Debug-e2431a48d33ec99e98d5.json",
 					"name" : "Widgets",
 					"projectIndex" : 0
 				},
