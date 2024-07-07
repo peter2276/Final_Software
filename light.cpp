@@ -4,16 +4,16 @@ Light::Light(){
     state = 0;
 }
 
-void Light::setActuatorOn(Port port){
+void Light::setActuatorOn(){
     if (state == 0){
-        this->board->digitalWrite(port,1);
+        this->board->digitalWrite(this->actuator,1);
         this->state = 1;
     }
 }
 
-void Light::setActuatorOff(Port port){
+void Light::setActuatorOff(){
     if (state == 1){
-        this->board->digitalWrite(port,0);
+        this->board->digitalWrite(this->actuator,0);
         this->state = 0;
     }
 }

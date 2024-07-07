@@ -16,19 +16,67 @@ void SystemManager::CreateAlarm(Port P){
     MyAlarm->setContoller(this->board);
     MyAlarm->setActuator(P);
 }
+void SystemManager::AddSensor(Port sensor){
+    MyAlarm->newSensor(sensor);
+}
+bool SystemManager::SetPassword(std::string pass){
+    return MyAlarm->setPassword(pass);
+}
+bool SystemManager::ToggleAlarm(std::string pass){
+    return MyAlarm->toggleAlarm(pass);
+}
+std::string SystemManager::CheckAlarm(){
+    return MyAlarm->getState();
+}
+
 void SystemManager::CreateHeater(Port act,Port sensor ){
     MyHeater = Heater::getInstance();
     MyHeater->setController(this->board);
     MyHeater->setActuator(act);
     MyHeater->setSensor(sensor);
 }
-void SystemManager::CreateLight(Port P){
+void SystemManager::SetTemp(int temp){
+    MyHeater->setTarget_Temp(temp);
+}
+int SystemManager::GetTemp(){
+    return MyHeater->getTemp();
+}
+void SystemManager::ToggleHeater(){
+    if(getState()){
+        MyHeater->setState(0);
+    }
+    else{
+        MyHeater->setState(1);
+    }
+}
+bool SystemManager::GetHeaterState(){
+    return getState();
+}
 
+void SystemManager::CreateLight(Port P){
     l = new light;
     l.setPort(P);
-    l.secController(this->board);
-    lights.push_front(l);
-
+    l.setController(this->board);
+    lights.push_back(l);
+}
+void SystemManager::LightOn(int id){
+    if(lights.size() > id && id >= 0){
+        auto it = std::advance(lights.begin(), id);
+        it->setActuatorOn();
+    }
+}
+void SystemManager::LightOff(int id){
+    if(lights.size() > id && id >= 0){
+        auto it = std::advance(lights.begin(), id);
+        it->setActuatorOff();
+    }
+}
+bool SystemManager::GetLightState(int id){
+    if(lights.size() > id && id >= 0){
+        auto it = std::advance(lights.begin(), id);
+        return it->getState();
+    }
+    return 0;
 }
 
 void SystemManager::CreateController(){

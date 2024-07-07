@@ -7,22 +7,38 @@
 #include "light.h"
 #include "heater.h"
 #include "port.h"
+#include <string>
 
 class SystemManager
 {
 public:
     static SystemManager* getInstance();
-    Alarm * MyAlarm;
-    Heater * MyHeater;
-    std::list<Light> lights;
-    void CreateAlarm(Port);
+
+    void CreateAlarm(Port act);
+    void AddSensor(Port sensor);
+    bool SetPassword(std::string pass);
+    bool ToggleAlarm(std::string pass);
+    std::string CheckAlarm();
+
     void CreateHeater(Port act, Port sensor);
+    void SetTemp(int temp);
+    int GetTemp();
+    void ToggleHeater();
+    bool GetHeaterState();
+
     void CreateLight(Port);
+    void LightOn(int id);
+    void LightOff(int id);
+    bool GetLightState(int id);
+
     void CreateController();
 
 protected:
     SystemManager();
 private:
+    Alarm * MyAlarm;
+    Heater * MyHeater;
+    std::list<Light> lights;
     Controller* board;
     static SystemManager* instance;
 };
