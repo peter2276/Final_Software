@@ -12,7 +12,7 @@ SystemManager* SystemManager::getInstance(){
 
 void SystemManager::CreateAlarm(Port P){
     MyAlarm = Alarm::getInstance();
-    MyAlarm->setContoller(this->board);
+    MyAlarm->setController(this->board);
     MyAlarm->setActuator(P);
 }
 void SystemManager::AddSensor(Port sensor){
@@ -43,7 +43,7 @@ int SystemManager::GetTemp(){
     return MyHeater->getTemp();
 }
 void SystemManager::ToggleHeater(){
-    if(getState()){
+    if(MyHeater->getState()){
         MyHeater->setState(0);
     }
     else{
@@ -51,11 +51,11 @@ void SystemManager::ToggleHeater(){
     }
 }
 bool SystemManager::GetHeaterState(){
-    return getState();
+    return MyHeater->();
 }
 
 void SystemManager::CreateLight(Port P){
-    l = new light;
+    l = new Light;
     l.setPort(P);
     l.setController(this->board);
     lights.push_back(l);

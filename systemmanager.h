@@ -8,6 +8,7 @@
 #include "heater.h"
 #include "port.h"
 #include <string>
+#include <iterator>
 
 class SystemManager
 {
