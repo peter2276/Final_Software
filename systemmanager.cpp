@@ -18,8 +18,8 @@ void SystemManager::CreateAlarm(Port P){
 void SystemManager::AddSensor(Port sensor){
     MyAlarm->newSensor(sensor);
 }
-bool SystemManager::SetPassword(std::string pass){
-    return MyAlarm->setPassword(pass);
+bool SystemManager::SetPassword(std::string pass, std::string newpass){
+    return MyAlarm->setPassword(pass,newpass);
 
 }
 bool SystemManager::ToggleAlarm(std::string pass){

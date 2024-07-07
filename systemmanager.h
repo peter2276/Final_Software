@@ -17,7 +17,7 @@ public:
 
     void CreateAlarm(Port act);
     void AddSensor(Port sensor);
-    bool SetPassword(std::string pass);
+    bool SetPassword(std::string pass, std::string newpass);
     bool ToggleAlarm(std::string pass);
     std::string CheckAlarm();
 
