@@ -41,6 +41,4 @@ void Heater::setActuator(Port port){
     this->actuator = port;
 }
 
-void Heater::setController(Controller *board){
-    this->board = board;
-}
+

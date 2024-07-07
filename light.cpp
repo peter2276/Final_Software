@@ -18,10 +18,6 @@ void Light::setActuatorOff(Port port){
     }
 }
 
-void Light::setController(Controller *board){
-    this->board = board;
-}
-
 bool Light::getState(){
     return this->state;
 }

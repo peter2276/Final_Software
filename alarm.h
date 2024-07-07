@@ -6,7 +6,7 @@
 #include <list>
 #include <string>
 
-class Alarm
+class Alarm: public Utility
 {
 public:
     static Alarm* getInstance();
@@ -15,11 +15,9 @@ public:
     void assembleAlarm();
     void disassembleAlarm();
     void setPassword(std::string password);
-    void setController(Controller *board);
 protected:
     Alarm();
 private:
-    Controller* board;
     std::string password;
     static Alarm* instance;
     std::list<Port> sensors;

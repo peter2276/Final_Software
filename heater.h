@@ -1,9 +1,9 @@
 #ifndef HEATER_H
 #define HEATER_H
 
-#include "controller.h"
+#include "utility.h"
 
-class Heater
+class Heater: public Utility
 {
 public:
     static Heater* getInstance();
@@ -14,12 +14,10 @@ public:
     int getTarget_Temp();
     void setSensor(Port port);
     void setActuator(Port port);
-    void setController(Controller *board);
 protected:
     Heater();
 private:
     static Heater* instance;
-    Controller* board;
     int Target_Temp;
     Port sensor;
     Port actuator;

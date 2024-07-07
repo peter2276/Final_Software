@@ -33,6 +33,3 @@ void Alarm::setPassword(std::string password){
     this->password = password;
 }
 
-void Alarm::setController(Controller *board){
-    this->board = board;
-}

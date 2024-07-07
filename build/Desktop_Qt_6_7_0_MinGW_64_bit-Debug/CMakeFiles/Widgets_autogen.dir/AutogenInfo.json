@@ -301,6 +301,12 @@
 			"MU",
 			"EWIEGA46WW/moc_systemmanager.cpp",
 			null
+		],
+		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h",
+			"MU",
+			"EWIEGA46WW/moc_utility.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -411,6 +417,11 @@
 		],
 		[
 			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp",
 			"MU",
 			null
 		]

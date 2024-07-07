@@ -3,16 +3,14 @@
 
 #include "controller.h"
 
-class Light
+class Light: public Utility
 {
 public:
     Light();
     void setActuatorOn(Port port);
     void setActuatorOff(Port port);
-    void setController(Controller *board);
     bool getState();
 private:
-    Controller* board;
     Port actuator;
     bool state;
 };
