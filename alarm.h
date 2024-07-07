@@ -21,6 +21,7 @@ public:
     void disassembleAlarm();
     void setPassword(std::string password);
     std::string getState();
+    bool checkPassword(std::string password);
 protected:
     Alarm();
 private:

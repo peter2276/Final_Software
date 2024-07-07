@@ -43,5 +43,11 @@ std::string Alarm::getState(){
     else if (this->state == StateType::ALARM){
         return "ALARM";
     }
+    else
+        return "ERROR";
+}
+
+bool Alarm::checkPassword(std::string password){
+    return this->password == password;
 }
 
