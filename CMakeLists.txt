@@ -31,6 +31,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         port.h port.cpp
 
         utility.h utility.cpp
+        dialogpassword.h dialogpassword.cpp dialogpassword.ui
+        dialogport.h dialogport.cpp dialogport.ui
+
+        dialognewpass.h dialognewpass.cpp dialognewpass.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Widgets APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

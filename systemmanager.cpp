@@ -10,12 +10,14 @@ SystemManager* SystemManager::getInstance(){
     return instance;
 }
 
-void SystemManager::CreateAlarm(Port P){
+void SystemManager::CreateAlarm(std::string port){
+    Port P(port);
     MyAlarm = Alarm::getInstance();
     MyAlarm->setController(this->board);
     MyAlarm->setActuator(P);
 }
-void SystemManager::AddSensor(Port sensor){
+void SystemManager::AddSensor(std::string port){
+    Port sensor(port);
     MyAlarm->newSensor(sensor);
 }
 bool SystemManager::SetPassword(std::string pass, std::string newpass){
@@ -27,10 +29,15 @@ bool SystemManager::ToggleAlarm(std::string pass){
 
 }
 std::string SystemManager::CheckAlarm(){
-    return MyAlarm->getState();
+    return Alarm::getInstance()->getState();
+    //return MyAlarm->getState();
 }
 
-void SystemManager::CreateHeater(Port act,Port sensor ){
+
+
+void SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
+    Port act(port_act);
+    Port sensor(port_sensor);
     MyHeater = Heater::getInstance();
     MyHeater->setController(this->board);
     MyHeater->setActuator(act);
@@ -54,7 +61,8 @@ bool SystemManager::GetHeaterState(){
     return MyHeater->getState();
 }
 
-void SystemManager::CreateLight(Port P){
+void SystemManager::CreateLight(std::string port){
+    Port P(port);
     auto l = new Light;
     l->setPort(P);
     l->setController(this->board);

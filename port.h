@@ -5,6 +5,7 @@
 class Port
 {
 public:
+    Port(std::string port_);
     Port();
     std::string port;
 };

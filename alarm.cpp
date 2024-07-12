@@ -3,7 +3,8 @@
 Alarm* Alarm::instance = 0;
 
 Alarm::Alarm(){
-
+    state = StateType::DISARMED;
+    password = "1234";
 }
 
 Alarm* Alarm::getInstance(){

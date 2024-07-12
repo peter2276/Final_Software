@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     Manager->CreateController();
 
     QApplication a(argc, argv);
-    MainWindow w;
+    MainWindow w(SystemManager::getInstance());
     w.show();
     return a.exec();
 }

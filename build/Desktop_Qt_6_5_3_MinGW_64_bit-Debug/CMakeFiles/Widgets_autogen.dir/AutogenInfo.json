@@ -300,6 +300,24 @@
 			null
 		],
 		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialognewpass.h",
+			"MU",
+			"EWIEGA46WW/moc_dialognewpass.cpp",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogpassword.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogpassword.cpp",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogport.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogport.cpp",
+			null
+		],
+		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/heater.h",
 			"MU",
 			"EWIEGA46WW/moc_heater.cpp",
@@ -413,6 +431,21 @@
 		],
 		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/controller.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialognewpass.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogpassword.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogport.cpp",
 			"MU",
 			null
 		],
