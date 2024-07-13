@@ -34,8 +34,6 @@ std::string SystemManager::CheckAlarm(){
     return MyAlarm->getState();
 }
 
-
-
 void SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
     Port act(port_act);
     Port sensor(port_sensor);
@@ -96,7 +94,8 @@ bool SystemManager::GetLightState(int id){
         std::advance(it, id);
         return it->getState();
     }
-    return 0;
+    else
+        return 0;
 }
 
 void SystemManager::CreateController(){

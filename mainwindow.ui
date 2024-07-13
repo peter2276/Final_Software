@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>372</width>
-    <height>302</height>
+    <width>378</width>
+    <height>299</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>-10</y>
+      <x>20</x>
+      <y>20</y>
       <width>331</width>
-      <height>251</height>
+      <height>261</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="movable">
      <bool>false</bool>
@@ -195,6 +195,29 @@
      <attribute name="title">
       <string>Luces</string>
      </attribute>
+     <widget class="QListWidget" name="LightsListWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LightsCreateButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>161</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Crear nueva lampara</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

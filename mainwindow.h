@@ -5,6 +5,7 @@
 #include "systemmanager.h"
 #include <QLabel>
 #include <QPushButton>
+#include <QListWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -38,6 +39,12 @@ private slots:
     void on_HeaterToggleButton_clicked();
     void on_HeaterSetButton_clicked();
 
+    void createlights(QString port, QString name);
+
+    void on_LightsCreateButton_clicked();
+
+    void on_LightsListWidget_itemActivated(QListWidgetItem *item);
+
 private:
     Ui::MainWindow *ui;
     SystemManager *manager;
@@ -52,5 +59,6 @@ private:
     QLabel *heater_state_label;
     QLabel *heater_objtemp_label;
     QLabel *heater_temp_label;
+    QListWidget *lights_list;
 };
 #endif // MAINWINDOW_H

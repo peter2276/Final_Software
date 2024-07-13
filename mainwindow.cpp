@@ -23,6 +23,8 @@ MainWindow::MainWindow(SystemManager *model, QWidget *parent)
     heater_state_label = findChild<QLabel*>("HeaterState");
     heater_objtemp_label = findChild<QLabel*>("HeaterTargetTemp");
     heater_temp_label = findChild<QLabel*>("HeaterTemp");
+
+    lights_list = findChild<QListWidget*>("LightsListWidget");
 }
 
 MainWindow::~MainWindow()
@@ -124,3 +126,30 @@ void MainWindow::setTargetTemp(QString temp){
     else
         QMessageBox::information(this, "ERROR", "Temperatura no valida", QMessageBox::Ok);
 }
+
+void MainWindow::on_LightsCreateButton_clicked(){
+    DialogTwoTexts QCreateLightsDialog(this, "Ingrese el puerto:", "Ingrese el nombre de la lampara:");
+    QObject::connect(&QCreateLightsDialog,&DialogTwoTexts::send_text,this,&MainWindow::createlights);
+    QCreateLightsDialog.exec();
+}
+
+void MainWindow::createlights(QString port, QString name){
+    manager->CreateLight(port.toUtf8().constData());
+    QListWidgetItem *item = new QListWidgetItem(name);
+    item->setBackground(Qt::red);
+    lights_list->addItem(item);
+}
+
+void MainWindow::on_LightsListWidget_itemActivated(QListWidgetItem *item)
+{
+    int id = lights_list->currentRow();
+    if (manager->GetLightState(id)){
+        item->setBackground(Qt::red);
+        manager->LightOff(id);
+    }
+    else {
+        item->setBackground(Qt::green);
+        manager->LightOn(id);
+    }
+}
+
