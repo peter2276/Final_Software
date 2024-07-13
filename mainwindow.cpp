@@ -1,10 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "dialogpassword.h"
-#include "dialogport.h"
-#include "dialog2ports.h"
-#include "dialognewpass.h"
-#include <iostream>
+#include "dialogonetext.h"
+#include "dialogtwotexts.h"
+#include <QMessageBox>
 
 MainWindow::MainWindow(SystemManager *model, QWidget *parent)
     : QMainWindow(parent)
@@ -36,7 +34,6 @@ MainWindow::~MainWindow()
 void MainWindow::toggleAlarm(QString pass){
     manager->ToggleAlarm(pass.toUtf8().constData());
     alarm_state_label->setText(QString::fromStdString(manager->CheckAlarm()));
-    std::cout << pass.toUtf8().constData() << std::endl;//debug por pantalla
 }
 
 void MainWindow::createAlarm(QString port){
@@ -50,16 +47,16 @@ void MainWindow::createAlarm(QString port){
 
 void MainWindow::on_AlarmToggleButton_clicked()
 {
-    DialogPassword QPassDialog(this);
-    QObject::connect(&QPassDialog,&DialogPassword::expectedPass,this,&MainWindow::toggleAlarm);
+    DialogOneText QPassDialog(this, "Ingrese contraseña:", 1);
+    QObject::connect(&QPassDialog,&DialogOneText::send_text,this,&MainWindow::toggleAlarm);
     QPassDialog.exec();
 }
 
 
 void MainWindow::on_AlarmCreateButton_clicked()
 {
-    DialogPort QPortDialog(this);
-    QObject::connect(&QPortDialog,&DialogPort::port,this,&MainWindow::createAlarm);
+    DialogOneText QPortDialog(this, "Ingrese el puerto de la alarma:");
+    QObject::connect(&QPortDialog,&DialogOneText::send_text,this,&MainWindow::createAlarm);
     QPortDialog.exec();
 }
 
@@ -69,8 +66,8 @@ void MainWindow::changeAlarmPass(QString actual_pass, QString new_pass){
 
 void MainWindow::on_AlarmChangepassButton_clicked()
 {
-    DialogNewPass QNewPassDialog(this);
-    QObject::connect(&QNewPassDialog,&DialogNewPass::changePass,this,&MainWindow::changeAlarmPass);
+    DialogTwoTexts QNewPassDialog(this, "Ingrese clave actual:", "Ingrese nueva clave:", 1);
+    QObject::connect(&QNewPassDialog,&DialogTwoTexts::send_text,this,&MainWindow::changeAlarmPass);
     QNewPassDialog.exec();
 }
 
@@ -80,8 +77,8 @@ void MainWindow::createAlarmSensor(QString port){
 
 void MainWindow::on_AlarmAddsensorButton_clicked()
 {
-    DialogPort QPortDialog(this);
-    QObject::connect(&QPortDialog,&DialogPort::port,this,&MainWindow::createAlarmSensor);
+    DialogOneText QPortDialog(this, "Ingrese el puerto del nuevo sensor:");
+    QObject::connect(&QPortDialog,&DialogOneText::send_text,this,&MainWindow::createAlarm);
     QPortDialog.exec();
 }
 
@@ -97,8 +94,8 @@ void MainWindow::createHeater(QString port_act, QString port_sensor){
 
 void MainWindow::on_HeaterCreateButton_clicked()
 {
-    Dialog2Ports QPortDialog(this);
-    QObject::connect(&QPortDialog,&Dialog2Ports::get2ports,this,&MainWindow::createHeater);
+    DialogTwoTexts QPortDialog(this, "Ingrese el puerto del actuador:", "Ingrese el puerto del sensor:");
+    QObject::connect(&QPortDialog,&DialogTwoTexts::send_text,this,&MainWindow::createHeater);
     QPortDialog.exec();
 }
 
@@ -107,12 +104,23 @@ void MainWindow::on_HeaterToggleButton_clicked()
 {
     manager->ToggleHeater();
     manager->GetHeaterState() ? heater_state_label->setText("Estado: Encendido") : heater_state_label->setText("Estado: Apagado");
-    //Esto se podria buscar hacer con alguna señal que actualice los labels?
 }
 
 
 void MainWindow::on_HeaterSetButton_clicked()
 {
-
+    DialogOneText QTempDialog(this, "Ingrese la temperatura deseada:");
+    QObject::connect(&QTempDialog,&DialogOneText::send_text,this,&MainWindow::setTargetTemp);
+    QTempDialog.exec();
 }
 
+void MainWindow::setTargetTemp(QString temp){
+    bool ok;
+    int temp_int = temp.toInt(&ok);
+    if (ok){
+        manager->SetTemp(temp_int);
+        heater_objtemp_label->setText("Temperatura objetivo: " + temp);
+    }
+    else
+        QMessageBox::information(this, "ERROR", "Temperatura no valida", QMessageBox::Ok);
+}

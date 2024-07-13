@@ -73,6 +73,7 @@ void SystemManager::CreateLight(std::string port){
     l->setController(this->board);
     lights.push_back(*l);
 }
+
 void SystemManager::LightOn(int id){
     if(lights.size() > id && id >= 0){
         auto it =lights.begin();
@@ -80,6 +81,7 @@ void SystemManager::LightOn(int id){
         it->setActuatorOn();
     }
 }
+
 void SystemManager::LightOff(int id){
     if(lights.size() > id && id >= 0){
         auto it =lights.begin();
@@ -87,6 +89,7 @@ void SystemManager::LightOff(int id){
         it->setActuatorOff();
     }
 }
+
 bool SystemManager::GetLightState(int id){
     if(lights.size() > id && id >= 0){
         auto it =lights.begin();

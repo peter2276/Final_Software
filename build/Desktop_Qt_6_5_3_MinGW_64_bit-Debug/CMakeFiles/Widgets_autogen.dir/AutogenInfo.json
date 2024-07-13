@@ -300,27 +300,15 @@
 			null
 		],
 		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialog2ports.h",
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogonetext.h",
 			"MU",
-			"EWIEGA46WW/moc_dialog2ports.cpp",
+			"EWIEGA46WW/moc_dialogonetext.cpp",
 			null
 		],
 		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialognewpass.h",
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogtwotexts.h",
 			"MU",
-			"EWIEGA46WW/moc_dialognewpass.cpp",
-			null
-		],
-		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogpassword.h",
-			"MU",
-			"EWIEGA46WW/moc_dialogpassword.cpp",
-			null
-		],
-		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogport.h",
-			"MU",
-			"EWIEGA46WW/moc_dialogport.cpp",
+			"EWIEGA46WW/moc_dialogtwotexts.cpp",
 			null
 		],
 		[
@@ -441,22 +429,12 @@
 			null
 		],
 		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialog2ports.cpp",
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogonetext.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialognewpass.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogpassword.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogport.cpp",
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogtwotexts.cpp",
 			"MU",
 			null
 		],

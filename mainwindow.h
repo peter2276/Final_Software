@@ -32,11 +32,10 @@ private slots:
     void on_AlarmAddsensorButton_clicked();
 
     void createHeater(QString port_act, QString port_sensor);
+    void setTargetTemp(QString temp);
 
     void on_HeaterCreateButton_clicked();
-
     void on_HeaterToggleButton_clicked();
-
     void on_HeaterSetButton_clicked();
 
 private:
