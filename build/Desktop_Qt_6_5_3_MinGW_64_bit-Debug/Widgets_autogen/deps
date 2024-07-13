@@ -554,6 +554,8 @@ Widgets_autogen/timestamp: \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/controller.cpp \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/controller.h \
+	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialog2ports.cpp \
+	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialog2ports.h \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialognewpass.cpp \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialognewpass.h \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialogpassword.cpp \
@@ -573,6 +575,7 @@ Widgets_autogen/timestamp: \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/systemmanager.h \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/utility.cpp \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/utility.h \
+	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialog2ports.ui \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialognewpass.ui \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialogpassword.ui \
 	C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/dialogport.ui \

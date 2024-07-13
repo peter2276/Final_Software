@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>372</width>
+    <height>302</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,19 +17,19 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>801</width>
-      <height>401</height>
+      <x>10</x>
+      <y>-10</y>
+      <width>331</width>
+      <height>251</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="movable">
      <bool>false</bool>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="Alarm">
      <attribute name="title">
       <string>Alarma</string>
      </attribute>
@@ -37,9 +37,9 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>110</y>
-        <width>281</width>
-        <height>86</height>
+        <y>100</y>
+        <width>291</width>
+        <height>111</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -99,27 +99,104 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="Heater">
      <attribute name="title">
       <string>Calefacción</string>
      </attribute>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>90</y>
+        <width>171</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="HeaterCreateButton">
+         <property name="text">
+          <string>Crear Calefacción</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="HeaterSetButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Setear T° Objetivo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="HeaterToggleButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Prender/Apagar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="HeaterTargetTemp">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>20</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Temperatura objetivo : 0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HeaterState">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>60</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Estado: Apagado</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HeaterTemp">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>40</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Temperatura actual: 0</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="tab_3">
+    <widget class="QWidget" name="Lights">
      <attribute name="title">
       <string>Luces</string>
      </attribute>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>17</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
