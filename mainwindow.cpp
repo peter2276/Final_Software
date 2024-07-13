@@ -34,17 +34,22 @@ MainWindow::~MainWindow()
 
 
 void MainWindow::toggleAlarm(QString pass){
-    manager->ToggleAlarm(pass.toUtf8().constData());
-    alarm_state_label->setText(QString::fromStdString(manager->CheckAlarm()));
+    if (manager->ToggleAlarm(pass.toUtf8().constData()))
+        alarm_state_label->setText(QString::fromStdString(manager->CheckAlarm()));
+    else
+        QMessageBox::warning(this, "ERROR", "Contraseña incorrecta", QMessageBox::Ok);
 }
 
 void MainWindow::createAlarm(QString port){
-    manager->CreateAlarm(port.toUtf8().constData());
-    alarm_toggle_button->setDisabled(0);
-    alarm_changepass_button->setDisabled(0);
-    alarm_addsensor_button->setDisabled(0);
-    alarm_state_label->setDisabled(0);
-    alarm_create_button->setDisabled(1);
+    if (manager->CreateAlarm(port.toUtf8().constData())){
+        alarm_toggle_button->setDisabled(0);
+        alarm_changepass_button->setDisabled(0);
+        alarm_addsensor_button->setDisabled(0);
+        alarm_state_label->setDisabled(0);
+        alarm_create_button->setDisabled(1);
+    }
+    else
+       QMessageBox::warning(this, "ERROR", "Puerto incorrecto", QMessageBox::Ok);
 }
 
 void MainWindow::on_AlarmToggleButton_clicked()
@@ -63,7 +68,8 @@ void MainWindow::on_AlarmCreateButton_clicked()
 }
 
 void MainWindow::changeAlarmPass(QString actual_pass, QString new_pass){
-    manager->SetPassword(actual_pass.toUtf8().constData(), new_pass.toUtf8().constData());
+    if (!manager->SetPassword(actual_pass.toUtf8().constData(), new_pass.toUtf8().constData()))
+        QMessageBox::warning(this, "ERROR", "Contraseña incorrecta", QMessageBox::Ok);
 }
 
 void MainWindow::on_AlarmChangepassButton_clicked()
@@ -74,7 +80,8 @@ void MainWindow::on_AlarmChangepassButton_clicked()
 }
 
 void MainWindow::createAlarmSensor(QString port){
-    manager->AddSensor(port.toUtf8().constData());
+    if (!manager->AddSensor(port.toUtf8().constData()))
+        QMessageBox::warning(this, "ERROR", "Puerto incorrecto", QMessageBox::Ok);
 }
 
 void MainWindow::on_AlarmAddsensorButton_clicked()
@@ -85,13 +92,16 @@ void MainWindow::on_AlarmAddsensorButton_clicked()
 }
 
 void MainWindow::createHeater(QString port_act, QString port_sensor){
-    manager->CreateHeater(port_act.toUtf8().constData(), port_sensor.toUtf8().constData());
-    heater_create_button->setDisabled(1);
-    heater_toggle_button->setDisabled(0);
-    heater_set_button->setDisabled(0);
-    heater_state_label->setDisabled(0);
-    heater_objtemp_label->setDisabled(0);
-    heater_temp_label->setDisabled(0);
+    if (manager->CreateHeater(port_act.toUtf8().constData(), port_sensor.toUtf8().constData())){
+        heater_create_button->setDisabled(1);
+        heater_toggle_button->setDisabled(0);
+        heater_set_button->setDisabled(0);
+        heater_state_label->setDisabled(0);
+        heater_objtemp_label->setDisabled(0);
+        heater_temp_label->setDisabled(0);
+    }
+    else
+        QMessageBox::warning(this, "ERROR", "Puerto incorrecto", QMessageBox::Ok);
 }
 
 void MainWindow::on_HeaterCreateButton_clicked()
@@ -134,10 +144,13 @@ void MainWindow::on_LightsCreateButton_clicked(){
 }
 
 void MainWindow::createlights(QString port, QString name){
-    manager->CreateLight(port.toUtf8().constData());
-    QListWidgetItem *item = new QListWidgetItem(name);
-    item->setBackground(Qt::red);
-    lights_list->addItem(item);
+    if (manager->CreateLight(port.toUtf8().constData())){
+        QListWidgetItem *item = new QListWidgetItem(name);
+        item->setBackground(Qt::red);
+        lights_list->addItem(item);
+    }
+    else
+        QMessageBox::warning(this, "ERROR", "Puerto incorrecto", QMessageBox::Ok);
 }
 
 void MainWindow::on_LightsListWidget_itemActivated(QListWidgetItem *item)

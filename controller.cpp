@@ -19,3 +19,7 @@ void Controller::analogWrite(Port port, float value){
 void Controller::digitalWrite(Port port, bool value){
     return; // stubbed
 }
+
+bool Controller::checkPortIsValid(Port port){
+    return 1; // stubbed
+}

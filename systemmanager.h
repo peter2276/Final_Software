@@ -15,19 +15,19 @@ class SystemManager
 public:
     static SystemManager* getInstance();
 
-    void CreateAlarm(std::string port);
-    void AddSensor(std::string port);
+    bool CreateAlarm(std::string port);
+    bool AddSensor(std::string port);
     bool SetPassword(std::string pass, std::string newpass);
     bool ToggleAlarm(std::string pass);
     std::string CheckAlarm();
 
-    void CreateHeater(std::string port_act, std::string port_sensor);
+    bool CreateHeater(std::string port_act, std::string port_sensor);
     void SetTemp(int temp);
     int GetTemp();
     void ToggleHeater();
     bool GetHeaterState();
 
-    void CreateLight(std::string port);
+    bool CreateLight(std::string port);
     void LightOn(int id);
     void LightOff(int id);
     bool GetLightState(int id);

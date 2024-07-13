@@ -10,16 +10,26 @@ SystemManager* SystemManager::getInstance(){
     return instance;
 }
 
-void SystemManager::CreateAlarm(std::string port){
+bool SystemManager::CreateAlarm(std::string port){
     Port P(port);
-    MyAlarm = Alarm::getInstance();
-    MyAlarm->setController(this->board);
-    MyAlarm->setActuator(P);
+    if (Controller::checkPortIsValid(P)){
+        MyAlarm = Alarm::getInstance();
+        MyAlarm->setController(this->board);
+        MyAlarm->setActuator(P);
+        return 1;
+    }
+    else
+        return 0;
 }
 
-void SystemManager::AddSensor(std::string port){
+bool SystemManager::AddSensor(std::string port){
     Port sensor(port);
-    MyAlarm->newSensor(sensor);
+    if (Controller::checkPortIsValid(sensor)){
+        MyAlarm->newSensor(sensor);
+        return 1;
+    }
+    else
+        return 0;
 }
 
 bool SystemManager::SetPassword(std::string pass, std::string newpass){
@@ -34,13 +44,18 @@ std::string SystemManager::CheckAlarm(){
     return MyAlarm->getState();
 }
 
-void SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
+bool SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
     Port act(port_act);
     Port sensor(port_sensor);
-    MyHeater = Heater::getInstance();
-    MyHeater->setController(this->board);
-    MyHeater->setActuator(act);
-    MyHeater->setSensor(sensor);
+    if (Controller::checkPortIsValid(act) && Controller::checkPortIsValid(sensor)){
+        MyHeater = Heater::getInstance();
+        MyHeater->setController(this->board);
+        MyHeater->setActuator(act);
+        MyHeater->setSensor(sensor);
+        return 1;
+    }
+    else
+        return 0;
 }
 
 void SystemManager::SetTemp(int temp){
@@ -64,12 +79,17 @@ bool SystemManager::GetHeaterState(){
     return MyHeater->getState();
 }
 
-void SystemManager::CreateLight(std::string port){
+bool SystemManager::CreateLight(std::string port){
     Port P(port);
-    auto l = new Light;
-    l->setPort(P);
-    l->setController(this->board);
-    lights.push_back(*l);
+    if (Controller::checkPortIsValid(P)){
+        auto l = new Light;
+        l->setPort(P);
+        l->setController(this->board);
+        lights.push_back(*l);
+        return 1;
+    }
+    else
+        return 0;
 }
 
 void SystemManager::LightOn(int id){

@@ -11,6 +11,7 @@ public:
     bool digitalRead(Port port);
     void analogWrite(Port port, float value);
     void digitalWrite(Port port, bool value);
+    static bool checkPortIsValid(Port port);
 };
 
 #endif // CONTROLLER_H
