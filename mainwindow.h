@@ -45,6 +45,8 @@ private slots:
 
     void on_LightsListWidget_itemActivated(QListWidgetItem *item);
 
+    void on_LightsDeleteButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     SystemManager *manager;

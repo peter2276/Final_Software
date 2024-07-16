@@ -28,6 +28,7 @@ public:
     bool GetHeaterState();
 
     bool CreateLight(std::string port);
+    bool DeleteLight(int id);
     void LightOn(int id);
     void LightOff(int id);
     bool GetLightState(int id);

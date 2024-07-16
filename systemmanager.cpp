@@ -92,6 +92,20 @@ bool SystemManager::CreateLight(std::string port){
         return 0;
 }
 
+bool SystemManager::DeleteLight(int id){
+    //Buscar lampara
+    //Eliminar lampara
+    if(lights.size() > id && id >= 0){
+        auto it =lights.begin();
+        std::advance(it, id);
+        it->setActuatorOn();
+        lights.erase(it);
+        return 1;
+    }
+    else
+        return 0;
+}
+
 void SystemManager::LightOn(int id){
     if(lights.size() > id && id >= 0){
         auto it =lights.begin();

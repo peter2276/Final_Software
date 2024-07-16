@@ -267,6 +267,18 @@
 			null
 		],
 		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogonetext.cpp",
+			null
+		],
+		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogtwotexts.cpp",
+			null
+		],
+		[
 			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h",
 			"MU",
 			"EWIEGA46WW/moc_heater.cpp",
@@ -381,6 +393,16 @@
 		],
 		[
 			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.cpp",
 			"MU",
 			null
 		],

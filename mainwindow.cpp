@@ -143,6 +143,14 @@ void MainWindow::on_LightsCreateButton_clicked(){
     QCreateLightsDialog.exec();
 }
 
+void MainWindow::on_LightsDeleteButton_clicked()
+{
+    int id = lights_list->currentRow();
+    manager->DeleteLight(id);
+    QListWidgetItem * item =lights_list->takeItem(id);
+    delete item;
+}
+
 void MainWindow::createlights(QString port, QString name){
     if (manager->CreateLight(port.toUtf8().constData())){
         QListWidgetItem *item = new QListWidgetItem(name);
@@ -165,4 +173,7 @@ void MainWindow::on_LightsListWidget_itemActivated(QListWidgetItem *item)
         manager->LightOn(id);
     }
 }
+
+
+
 
