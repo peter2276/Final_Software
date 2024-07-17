@@ -370,6 +370,7 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_So
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/alarm.h
+ mdp:C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/arduinouno.h
  mdp:C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h
  mdp:C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/controller.h
  mdp:C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/heater.h
@@ -2485,3 +2486,5 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_So
  uic:ui_dialogonetext.h
 C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogtwotexts.cpp
  uic:ui_dialogtwotexts.h
+C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/arduinouno.h
+C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/arduinouno.cpp

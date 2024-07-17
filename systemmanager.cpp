@@ -12,7 +12,7 @@ SystemManager* SystemManager::getInstance(){
 
 bool SystemManager::CreateAlarm(std::string port){
     Port P(port);
-    if (Controller::checkPortIsValid(P)){
+    if (this->board->checkPortIsValid(P)){
         MyAlarm = Alarm::getInstance();
         MyAlarm->setController(this->board);
         MyAlarm->setActuator(P);
@@ -24,7 +24,7 @@ bool SystemManager::CreateAlarm(std::string port){
 
 bool SystemManager::AddSensor(std::string port){
     Port sensor(port);
-    if (Controller::checkPortIsValid(sensor)){
+    if (this->board->checkPortIsValid(sensor)){
         MyAlarm->newSensor(sensor);
         return 1;
     }
@@ -47,7 +47,7 @@ std::string SystemManager::CheckAlarm(){
 bool SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
     Port act(port_act);
     Port sensor(port_sensor);
-    if (Controller::checkPortIsValid(act) && Controller::checkPortIsValid(sensor)){
+    if (this->board->checkPortIsValid(act) && this->board->checkPortIsValid(sensor)){
         MyHeater = Heater::getInstance();
         MyHeater->setController(this->board);
         MyHeater->setActuator(act);
@@ -81,7 +81,7 @@ bool SystemManager::GetHeaterState(){
 
 bool SystemManager::CreateLight(std::string port){
     Port P(port);
-    if (Controller::checkPortIsValid(P)){
+    if (this->board->checkPortIsValid(P)){
         auto l = new Light;
         l->setPort(P);
         l->setController(this->board);
@@ -98,7 +98,7 @@ bool SystemManager::DeleteLight(int id){
     if(lights.size() > id && id >= 0){
         auto it =lights.begin();
         std::advance(it, id);
-        it->setActuatorOn();
+        it->setActuatorOff();
         lights.erase(it);
         return 1;
     }
@@ -134,6 +134,6 @@ bool SystemManager::GetLightState(int id){
 
 void SystemManager::CreateController(){
     if (board==NULL){
-        board = new Controller;
+        board = new ArduinoUNO;//Corregir
     }
 }

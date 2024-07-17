@@ -368,6 +368,7 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/alarm.h \
+  C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/arduinouno.h \
   C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/controller.h \
   C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/heater.h \
   C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/light.h \

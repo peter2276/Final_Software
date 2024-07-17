@@ -294,6 +294,12 @@
 			null
 		],
 		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/arduinouno.h",
+			"MU",
+			"EWIEGA46WW/moc_arduinouno.cpp",
+			null
+		],
+		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/controller.h",
 			"MU",
 			"EWIEGA46WW/moc_controller.cpp",
@@ -420,6 +426,11 @@
 	[
 		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/alarm.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/arduinouno.cpp",
 			"MU",
 			null
 		],

@@ -8,6 +8,9 @@ public:
     Port(std::string port_);
     Port();
     std::string port;
+    bool operator==(const Port& other) const {
+        return this->port == other.port;
+    }
 };
 
 #endif // PORT_H

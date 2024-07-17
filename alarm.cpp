@@ -18,6 +18,18 @@ void Alarm::newSensor(Port port){
     this->sensors.push_back(port);
 }
 
+bool Alarm::deleteSensor(int id){
+    if(this->sensors.size() > id && id >= 0){
+        auto it =this->sensors.begin();
+        std::advance(it, id);
+        this->sensors.erase(it);
+        return 1;
+    }
+    else
+        return 0;
+}
+
+
 void Alarm::setActuator(Port port){
     this->actuator = port;
 }

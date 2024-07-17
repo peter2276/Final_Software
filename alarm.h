@@ -16,6 +16,7 @@ class Alarm: public Utility
 public:
     static Alarm* getInstance();
     void newSensor(Port port);
+    bool deleteSensor(int id);
     void setActuator(Port port);
     bool toggleAlarm(std::string pass);
     bool setPassword(std::string Actualpassword,std::string Newpassword);
