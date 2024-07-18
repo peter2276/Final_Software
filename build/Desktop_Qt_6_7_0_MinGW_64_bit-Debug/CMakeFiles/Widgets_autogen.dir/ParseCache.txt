@@ -389,14 +389,14 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/main.cpp
-C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h
-C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.h
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/states.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp

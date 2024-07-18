@@ -13,6 +13,7 @@ public:
     void digitalWrite(Port* port, bool value) override;
     bool checkPortIsValid(Port port) override;
     Port* getPort(Port port) override;
+protected:
     static std::vector<Port> digitalPorts;
     static std::vector<Port> analogPorts;
 };
