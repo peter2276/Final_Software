@@ -14,6 +14,8 @@ public:
     bool checkPortIsValid(Port port) override;
     static std::vector<Port> digitalPorts;
     static std::vector<Port> analogPorts;
+    std::vector<Port> getAvailableDigitalPorts();
+    std::vector<Port> getAvailableAnalogPorts();
 };
 
 #endif // ARDUINOUNO_H

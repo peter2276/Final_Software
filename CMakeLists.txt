@@ -39,6 +39,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         dialogonetext.h dialogonetext.cpp dialogonetext.ui
         dialogtwotexts.h dialogtwotexts.cpp dialogtwotexts.ui
         arduinouno.h arduinouno.cpp
+        dialogcombobox.h dialogcombobox.cpp dialogcombobox.ui
 
     )
 # Define target properties for Android with Qt 6 as:

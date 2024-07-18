@@ -3,9 +3,11 @@
 Light::Light(){
     state = 0;
 }
+
 void Light::setPort(Port P){
     this->actuator=P;
 }
+
 void Light::setActuatorOn(){
     if (state == 0){
         this->board->digitalWrite(this->actuator,1);

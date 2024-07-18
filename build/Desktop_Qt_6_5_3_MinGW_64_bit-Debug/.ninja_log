@@ -1,45 +1,101 @@
 # ninja log v6
-37	220	7429556436756937	Widgets_autogen/timestamp	600204047788dc76
-37	220	7429556436756937	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-37	220	7429556436756937	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-954	2295	7429543715825301	CMakeFiles/Widgets.dir/light.cpp.obj	d8d500273ab2bea4
-37	220	7429556436756937	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-951	1966	7429543715785401	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
-959	2068	7429543715875156	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
-938	7358	7429543715665714	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
-221	3750	7429556438596053	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-934	7431	7429543715625830	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
-947	2447	7429543715745514	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
-3793	4833	7429509206415938	Widgets.exe	ef8893c7faafe493
-836	1972	7429537337340033	CMakeFiles/Widgets.dir/port.cpp.obj	b7c529d3d98df9ff
-963	2412	7429543715915523	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
-978	2029	7429543716054683	CMakeFiles/Widgets.dir/utility.cpp.obj	ed37ea8ba3d9d0c5
+1203	3712	7429722387526712	CMakeFiles/Widgets.dir/light.cpp.obj	d8d500273ab2bea4
+47	292	7429742127219410	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+47	292	7429742127219410	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+47	292	7429742127219410	Widgets_autogen/timestamp	600204047788dc76
+47	292	7429742127219410	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+1198	2868	7429722387479876	CMakeFiles/Widgets.dir/heater.cpp.obj	819bf7372b838a0b
+1214	3206	7429722387643128	CMakeFiles/Widgets.dir/controller.cpp.obj	a170257abf313d8b
+1168	12827	7429722387187352	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
+294	5186	7429742129705393	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+1161	13344	7429722387117525	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+1186	3195	7429722387360815	CMakeFiles/Widgets.dir/alarm.cpp.obj	ac28652e86650e1a
+7727	8784	7429739678681066	Widgets.exe	99222726c607e0f2
+2384	3963	7429663992658746	CMakeFiles/Widgets.dir/port.cpp.obj	b7c529d3d98df9ff
+249	1626	7429723558854932	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
+1238	2981	7429722387881420	CMakeFiles/Widgets.dir/utility.cpp.obj	ed37ea8ba3d9d0c5
 363	5675	7426054680125660	CMakeFiles/Widgets.dir/dialogpassword.cpp.obj	6f86df4f722f18a8
 366	5062	7426054680155589	CMakeFiles/Widgets.dir/dialogport.cpp.obj	5474304e852b400f
 369	5716	7426054680185507	CMakeFiles/Widgets.dir/dialognewpass.cpp.obj	8aae87395d0b27aa
 373	5173	7426054680225797	CMakeFiles/Widgets.dir/dialog2ports.cpp.obj	275180696198f048
-225	3570	7429556438633404	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
-228	3442	7429556438663050	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
-46	223	7429556613612409	Widgets_autogen/timestamp	600204047788dc76
-46	223	7429556613612409	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-46	223	7429556613612409	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-46	223	7429556613612409	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-230	3311	7429556615452349	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
-227	3326	7429556615421276	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
-224	3631	7429556615394676	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-47	273	7429557113257662	Widgets_autogen/timestamp	600204047788dc76
-47	273	7429557113257662	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-47	273	7429557113257662	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-47	273	7429557113257662	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-281	3234	7429557115607939	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
-278	3303	7429557115569230	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
-274	3575	7429557115534379	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-34	270	7429557298126705	Widgets_autogen/timestamp	600204047788dc76
-34	270	7429557298126705	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-34	270	7429557298126705	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
-34	270	7429557298126705	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
-281	950	7429557300590083	CMakeFiles/Widgets.dir/arduinouno.cpp.obj	69951995faec71a3
-274	3433	7429557300526437	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
-277	3466	7429557300550304	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
-271	3708	7429557300489272	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
-3708	4564	7429557334864793	Widgets.exe	27f7889df5a3a204
+377	6311	7429739605169405	CMakeFiles/Widgets.dir/dialogcombobox.cpp.obj	fe6e775e1b519bec
+299	4747	7429742129756104	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+306	4668	7429742129816770	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+261	1576	7429723558971572	CMakeFiles/Widgets.dir/arduinouno.cpp.obj	69951995faec71a3
+50	254	7429743074363582	Widgets_autogen/timestamp	600204047788dc76
+50	254	7429743074363582	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+50	254	7429743074363582	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+50	254	7429743074363582	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+267	4751	7429743076606036	CMakeFiles/Widgets.dir/dialogcombobox.cpp.obj	fe6e775e1b519bec
+262	4760	7429743076565373	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+259	4774	7429743076533310	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+255	5281	7429743076491763	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+5281	5884	7429743126755396	Widgets.exe	99222726c607e0f2
+34	793	7429744180577234	Widgets_autogen/timestamp	600204047788dc76
+34	793	7429744180577234	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+34	793	7429744180577234	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+34	793	7429744180577234	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+821	2034	7429744181910265	CMakeFiles/Widgets.dir/arduinouno.cpp.obj	69951995faec71a3
+807	2156	7429744181762518	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
+798	6067	7429744181667465	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
+829	6244	7429744181983145	CMakeFiles/Widgets.dir/dialogcombobox.cpp.obj	fe6e775e1b519bec
+811	6523	7429744181803084	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+817	6610	7429744181862528	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+794	6647	7429744181638145	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+802	6949	7429744181717323	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+6949	7452	7429744243184408	Widgets.exe	99222726c607e0f2
+39	274	7429747230744057	Widgets_autogen/timestamp	600204047788dc76
+39	274	7429747230744057	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+39	274	7429747230744057	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+39	274	7429747230744057	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+282	4762	7429747233171738	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+279	4798	7429747233141914	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+275	5439	7429747233101970	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+50	309	7429748313333565	Widgets_autogen/timestamp	600204047788dc76
+50	309	7429748313333565	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+50	309	7429748313333565	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+50	309	7429748313333565	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+318	4369	7429748316021199	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+314	4391	7429748315981301	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+310	4830	7429748315931445	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+43	278	7429748486883464	Widgets_autogen/timestamp	600204047788dc76
+43	278	7429748486883464	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+43	278	7429748486883464	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+43	278	7429748486883464	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+284	4626	7429748489295888	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+288	4669	7429748489346526	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+280	5183	7429748489259556	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+43	249	7429749136489218	Widgets_autogen/timestamp	600204047788dc76
+43	249	7429749136489218	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+43	249	7429749136489218	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+43	249	7429749136489218	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+254	5238	7429749138612941	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+257	5298	7429749138642871	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+250	5712	7429749138573091	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+41	860	7429750827383986	Widgets_autogen/timestamp	600204047788dc76
+41	860	7429750827383986	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+41	860	7429750827383986	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+41	860	7429750827383986	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+874	2098	7429750828359847	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
+866	5307	7429750828280063	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
+898	5578	7429750828600514	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+879	5732	7429750828409714	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+861	5864	7429750828240519	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+870	6091	7429750828319966	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+49	831	7429751962464298	Widgets_autogen/timestamp	600204047788dc76
+49	831	7429751962464298	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+49	831	7429751962464298	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+49	831	7429751962464298	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+846	2115	7429751963570392	CMakeFiles/Widgets.dir/systemmanager.cpp.obj	66c8f6669396d956
+837	6131	7429751963480571	CMakeFiles/Widgets.dir/main.cpp.obj	ebb5a8ec7cbdd629
+851	6162	7429751963615750	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+855	6424	7429751963667204	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+833	6871	7429751963445721	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	4768d10763954f3e
+842	7023	7429751963530490	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3
+42	270	7429753294531150	Widgets_autogen/timestamp	600204047788dc76
+42	270	7429753294531150	Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+42	270	7429753294531150	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/timestamp	600204047788dc76
+42	270	7429753294531150	C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	600204047788dc76
+279	4298	7429753296963929	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	9d4bf3a66d26ef4
+275	4305	7429753296934900	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d748bc98a5a3c2ca
+272	4714	7429753296896754	CMakeFiles/Widgets.dir/mainwindow.cpp.obj	25502bd15cf7cee3

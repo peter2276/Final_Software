@@ -306,6 +306,12 @@
 			null
 		],
 		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogcombobox.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogcombobox.cpp",
+			null
+		],
+		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogonetext.h",
 			"MU",
 			"EWIEGA46WW/moc_dialogonetext.cpp",
@@ -436,6 +442,11 @@
 		],
 		[
 			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/controller.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Usuario/Documents/Franco/uni/5to/arq de software/Trabajo final/Final_Software/dialogcombobox.cpp",
 			"MU",
 			null
 		],

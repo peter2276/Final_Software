@@ -44,3 +44,23 @@ bool ArduinoUNO::checkPortIsValid(Port port){
     }
     return 0;
 }
+
+std::vector<Port> ArduinoUNO::getAvailableDigitalPorts(){
+    std::vector<Port> available (digitalPorts);
+    for (int i = 0; i < available.size(); i++){
+        if (available[i].getState()){
+            available.erase(available.begin() + i);
+        }
+    }
+    return available;
+}
+
+std::vector<Port> ArduinoUNO::getAvailableAnalogPorts(){
+    std::vector<Port> available (analogPorts);
+    for (int i = 0; i < available.size(); i++){
+        if (available[i].getState()){
+            available.erase(available.begin() + i);
+        }
+    }
+    return available;
+}

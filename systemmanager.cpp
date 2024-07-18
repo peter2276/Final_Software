@@ -137,3 +137,21 @@ void SystemManager::CreateController(){
         board = new ArduinoUNO;//Corregir
     }
 }
+
+std::vector<std::string> SystemManager::getAnalogPorts(){
+    std::vector<Port> ports = board->getAvailableAnalogPorts();
+    std::vector<std::string> names;
+    for (int i = 0; i < ports.size(); i++){
+        names.push_back(ports[i].getPort());
+    }
+    return names;
+}
+
+std::vector<std::string> SystemManager::getDigitalPorts(){
+    std::vector<Port> ports = board->getAvailableDigitalPorts();
+    std::vector<std::string> names;
+    for (auto it = ports.begin(); it != ports.end(); it++){
+        names.push_back(it->getPort());
+    }
+    return names;
+}

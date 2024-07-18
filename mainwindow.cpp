@@ -2,7 +2,10 @@
 #include "./ui_mainwindow.h"
 #include "dialogonetext.h"
 #include "dialogtwotexts.h"
+#include "dialogcombobox.h"
 #include <QMessageBox>
+
+#include <iostream>
 
 MainWindow::MainWindow(SystemManager *model, QWidget *parent)
     : QMainWindow(parent)
@@ -62,9 +65,15 @@ void MainWindow::on_AlarmToggleButton_clicked()
 
 void MainWindow::on_AlarmCreateButton_clicked()
 {
+    DialogComboBox QPortDialog(this, "Ingrese el puerto de la alarma", manager->getDigitalPorts());
+    QObject::connect(&QPortDialog,&DialogComboBox::send_text,this,&MainWindow::createAlarm);
+    QPortDialog.exec();
+
+    /*
     DialogOneText QPortDialog(this, "Ingrese el puerto de la alarma:");
     QObject::connect(&QPortDialog,&DialogOneText::send_text,this,&MainWindow::createAlarm);
     QPortDialog.exec();
+*/
 }
 
 void MainWindow::changeAlarmPass(QString actual_pass, QString new_pass){

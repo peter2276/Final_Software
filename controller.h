@@ -15,6 +15,8 @@ public:
     virtual bool checkPortIsValid(Port port) = 0;
     static std::vector<Port> digitalPorts;
     static std::vector<Port> analogPorts;
+    virtual std::vector<Port> getAvailableDigitalPorts() = 0;
+    virtual std::vector<Port> getAvailableAnalogPorts() = 0;
 };
 
 #endif // CONTROLLER_H

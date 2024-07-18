@@ -2,6 +2,7 @@
 #define SYSTEMMANAGER_H
 
 #include <list>
+#include <vector>
 #include "alarm.h"
 #include "arduinouno.h"
 #include "light.h"
@@ -14,6 +15,9 @@ class SystemManager
 {
 public:
     static SystemManager* getInstance();
+
+    std::vector<std::string> getAnalogPorts();
+    std::vector<std::string> getDigitalPorts();
 
     bool CreateAlarm(std::string port);
     bool AddSensor(std::string port);
