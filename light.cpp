@@ -3,8 +3,11 @@
 Light::Light(){
     state = 0;
 }
+Light::~Light(){
+    this->actuator->setState(0);
+}
 void Light::setPort(Port P){
-    this->actuator=P;
+    this->actuator=this->board->getPort(P);
 }
 void Light::setActuatorOn(){
     if (state == 0){

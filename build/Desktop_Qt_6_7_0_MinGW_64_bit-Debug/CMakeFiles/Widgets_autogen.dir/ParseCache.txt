@@ -379,6 +379,7 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h
+ mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h
  mdp:C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h
@@ -1139,3 +1140,5 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp
  uic:ui_dialogonetext.h
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.cpp
  uic:ui_dialogtwotexts.h
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h
+C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp

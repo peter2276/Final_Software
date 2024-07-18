@@ -26,7 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         alarm.h alarm.cpp
         heater.h heater.cpp
         light.h light.cpp
-        controller.h controller.cpp
+        controller.h
         systemmanager.h systemmanager.cpp
         port.h port.cpp
 

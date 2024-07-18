@@ -14,13 +14,14 @@ public:
     int getTarget_Temp();
     void setSensor(Port port);
     void setActuator(Port port);
+    ~Heater();
 protected:
     Heater();
 private:
     static Heater* instance;
     int Target_Temp;
-    Port sensor;
-    Port actuator;
+    Port *sensor;
+    Port *actuator;
     bool state;
 };
 

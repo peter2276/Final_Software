@@ -83,8 +83,8 @@ bool SystemManager::CreateLight(std::string port){
     Port P(port);
     if (this->board->checkPortIsValid(P)){
         auto l = new Light;
-        l->setPort(P);
         l->setController(this->board);
+        l->setPort(P);
         lights.push_back(*l);
         return 1;
     }

@@ -65,7 +65,7 @@ public:
         Alarm->setObjectName("Alarm");
         layoutWidget = new QWidget(Alarm);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(10, 100, 291, 116));
+        layoutWidget->setGeometry(QRect(10, 30, 291, 116));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -95,7 +95,7 @@ public:
         AlarmState = new QLabel(Alarm);
         AlarmState->setObjectName("AlarmState");
         AlarmState->setEnabled(false);
-        AlarmState->setGeometry(QRect(230, 50, 61, 21));
+        AlarmState->setGeometry(QRect(230, 10, 61, 21));
         tabWidget->addTab(Alarm, QString());
         Heater = new QWidget();
         Heater->setObjectName("Heater");
@@ -154,7 +154,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);

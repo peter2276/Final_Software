@@ -378,6 +378,7 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h \

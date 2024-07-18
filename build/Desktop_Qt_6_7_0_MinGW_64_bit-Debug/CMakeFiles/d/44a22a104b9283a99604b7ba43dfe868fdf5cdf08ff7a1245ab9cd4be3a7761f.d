@@ -555,12 +555,13 @@ Widgets_autogen/timestamp: \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/CMakeLists.txt \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   Widgets_autogen/moc_predefs.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.cpp \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.h \

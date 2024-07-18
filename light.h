@@ -7,12 +7,13 @@ class Light: public Utility
 {
 public:
     Light();
-    void setPort(Port);
+    ~Light();
+    void setPort(Port P);
     void setActuatorOn();
     void setActuatorOff();
     bool getState();
 private:
-    Port actuator;
+    Port *actuator;
     bool state;
 };
 

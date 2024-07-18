@@ -5,6 +5,10 @@ Heater* Heater::instance = 0;
 Heater::Heater(){
 
 }
+Heater::~Heater(){
+    this->sensor->setState(0);
+    this->actuator->setState(0);
+}
 
 Heater* Heater::getInstance(){
     if (instance == 0){
@@ -34,11 +38,12 @@ int Heater::getTarget_Temp(){
 }
 
 void Heater::setSensor(Port port){
-    this->sensor = port;
+    this->sensor = this->board->getPort(port);
 }
 
+
 void Heater::setActuator(Port port){
-    this->actuator = port;
+    this->actuator = this->board->getPort(port);
 }
 
 

@@ -554,12 +554,13 @@ Widgets_autogen/timestamp: \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/CMakeLists.txt \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h \
+	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp \
+	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h \
-	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.cpp \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp \
 	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.h \

@@ -21,14 +21,15 @@ public:
     bool toggleAlarm(std::string pass);
     bool setPassword(std::string Actualpassword,std::string Newpassword);
     std::string getState();
+    ~Alarm();
 protected:
     Alarm();
 private:
     bool checkPassword(std::string pass);
     std::string password;
     static Alarm* instance;
-    std::list<Port> sensors;
-    Port actuator;
+    std::list<Port*> sensors;
+    Port *actuator;
     StateType state;
 };
 

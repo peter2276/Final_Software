@@ -6,6 +6,9 @@ Alarm::Alarm(){
     state = StateType::DISARMED;
     password = "1234";
 }
+Alarm::~Alarm(){
+    this->actuator->setState(0);
+}
 
 Alarm* Alarm::getInstance(){
     if (instance == 0){
@@ -15,13 +18,17 @@ Alarm* Alarm::getInstance(){
 }
 
 void Alarm::newSensor(Port port){
-    this->sensors.push_back(port);
+    this->sensors.push_back(this->board->getPort(port));
 }
 
 bool Alarm::deleteSensor(int id){
+    Port * p;
     if(this->sensors.size() > id && id >= 0){
-        auto it =this->sensors.begin();
+        std::_List_iterator<Port*> it =this->sensors.begin();
         std::advance(it, id);
+        //it->(setState(0));
+        p=*it;
+        p->setState(0);
         this->sensors.erase(it);
         return 1;
     }
@@ -31,7 +38,7 @@ bool Alarm::deleteSensor(int id){
 
 
 void Alarm::setActuator(Port port){
-    this->actuator = port;
+    this->actuator = this->board->getPort(port);
 }
 
 bool Alarm::toggleAlarm(std::string pass){

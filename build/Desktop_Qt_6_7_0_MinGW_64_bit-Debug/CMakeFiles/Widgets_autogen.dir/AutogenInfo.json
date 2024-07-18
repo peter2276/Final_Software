@@ -261,6 +261,12 @@
 			null
 		],
 		[
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h",
+			"MU",
+			"EWIEGA46WW/moc_arduinouno.cpp",
+			null
+		],
+		[
 			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h",
 			"MU",
 			"EWIEGA46WW/moc_controller.cpp",
@@ -392,7 +398,7 @@
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp",
 			"MU",
 			null
 		],
