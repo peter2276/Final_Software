@@ -7,6 +7,7 @@ class Utility
 public:
     Utility();
     void setController(Controller *board);
+    virtual void updateState() = 0;
 protected:
     Controller* board;
 };

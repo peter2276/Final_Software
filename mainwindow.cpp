@@ -25,6 +25,13 @@ MainWindow::MainWindow(SystemManager *model, QWidget *parent)
     heater_temp_label = findChild<QLabel*>("HeaterTemp");
 
     lights_list = findChild<QListWidget*>("LightsListWidget");
+
+    controller_clock = new QTimer(this);
+    window_clock = new QTimer(this);
+    connect(window_clock, &QTimer::timeout, this, &MainWindow::updateController);
+    connect(window_clock, &QTimer::timeout, this, &MainWindow::updateWindow);
+    controller_clock->start(500);
+    window_clock->start(1000);
 }
 
 MainWindow::~MainWindow()
@@ -87,7 +94,7 @@ void MainWindow::createAlarmSensor(QString port){
 void MainWindow::on_AlarmAddsensorButton_clicked()
 {
     DialogOneText QPortDialog(this, "Ingrese el puerto del nuevo sensor:");
-    QObject::connect(&QPortDialog,&DialogOneText::send_text,this,&MainWindow::createAlarm);
+    QObject::connect(&QPortDialog,&DialogOneText::send_text,this,&MainWindow::createAlarmSensor);
     QPortDialog.exec();
 }
 
@@ -174,6 +181,13 @@ void MainWindow::on_LightsListWidget_itemActivated(QListWidgetItem *item)
     }
 }
 
+void MainWindow::updateController(){
+    manager->updateUtilities();
+}
 
+void MainWindow::updateWindow(){
+    heater_temp_label->setText("Temperatura actual: " + QString::number(manager->GetTemp()));
+    alarm_state_label->setText(QString::fromStdString(manager->CheckAlarm()));
+}
 
 

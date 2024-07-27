@@ -21,6 +21,7 @@ public:
     bool toggleAlarm(std::string pass);
     bool setPassword(std::string Actualpassword,std::string Newpassword);
     std::string getState();
+    void updateState() override;
     ~Alarm();
 protected:
     Alarm();

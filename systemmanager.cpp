@@ -1,8 +1,14 @@
 #include "systemmanager.h"
 
+#include <iostream>
+
 SystemManager* SystemManager::instance = 0;
 
-SystemManager::SystemManager() {}
+SystemManager::SystemManager(){
+    this->MyHeater = nullptr;
+    this->MyAlarm = nullptr;
+}
+
 SystemManager* SystemManager::getInstance(){
     if (instance == 0){
         instance = new SystemManager;
@@ -41,7 +47,10 @@ bool SystemManager::ToggleAlarm(std::string pass){
 }
 
 std::string SystemManager::CheckAlarm(){
-    return MyAlarm->getState();
+    if (this->MyAlarm != nullptr)
+        return MyAlarm->getState();
+    else
+        return " ";
 }
 
 bool SystemManager::CreateHeater(std::string port_act, std::string port_sensor){
@@ -63,7 +72,10 @@ void SystemManager::SetTemp(int temp){
 }
 
 int SystemManager::GetTemp(){
-    return MyHeater->getTemp();
+    if (this->MyHeater != nullptr)
+        return MyHeater->getTemp();
+    else
+        return 0;
 }
 
 void SystemManager::ToggleHeater(){
@@ -76,7 +88,10 @@ void SystemManager::ToggleHeater(){
 }
 
 bool SystemManager::GetHeaterState(){
-    return MyHeater->getState();
+    if (this->MyHeater != nullptr)
+        return MyHeater->getState();
+    else
+        return 0;
 }
 
 bool SystemManager::CreateLight(std::string port){
@@ -134,6 +149,13 @@ bool SystemManager::GetLightState(int id){
 
 void SystemManager::CreateController(){
     if (board==NULL){
-        board = new ArduinoUNO;//Corregir
+        board = new ArduinoUNO;
     }
+}
+
+void SystemManager::updateUtilities(){
+    if (this->MyAlarm != nullptr)
+        this->MyAlarm->updateState();
+    if (this->MyHeater != nullptr)
+        this->MyHeater->updateState();
 }

@@ -18,16 +18,17 @@ Alarm* Alarm::getInstance(){
 }
 
 void Alarm::newSensor(Port port){
-    this->sensors.push_back(this->board->getPort(port));
+    auto p = new Port;
+    p = this->board->getPort(port);
+    this->sensors.push_back(p);
 }
 
 bool Alarm::deleteSensor(int id){
-    Port * p;
+    Port *p;
     if(this->sensors.size() > id && id >= 0){
-        std::_List_iterator<Port*> it =this->sensors.begin();
+        std::_List_iterator<Port*> it = this->sensors.begin();
         std::advance(it, id);
-        //it->(setState(0));
-        p=*it;
+        p = *it;
         p->setState(0);
         this->sensors.erase(it);
         return 1;
@@ -45,6 +46,7 @@ bool Alarm::toggleAlarm(std::string pass){
     if (this->checkPassword(pass)){
         if (this->state == StateType::ARMED || this->state == StateType::ALARM){
             this->state = StateType::DISARMED;
+            this->board->digitalWrite(this->actuator, 0);
         }
         else if (this->state == StateType::DISARMED){
             this->state = StateType::ARMED;
@@ -55,7 +57,7 @@ bool Alarm::toggleAlarm(std::string pass){
         return 0;
 }
 
-bool Alarm::setPassword(std::string Actualpassword,std::string Newpassword){
+bool Alarm::setPassword(std::string Actualpassword, std::string Newpassword){
     if(this->checkPassword(Actualpassword)){
         this->password = Newpassword;
         return 1;
@@ -79,5 +81,18 @@ std::string Alarm::getState(){
 
 bool Alarm::checkPassword(std::string password){
     return this->password == password;
+}
+
+void Alarm::updateState(){
+    if (this->state == StateType::ARMED){
+        auto it = this->sensors.begin();
+        for (int i = 0; i < this->sensors.size(); i++){
+            std::advance(it, i);
+            if (this->board->digitalRead(*it)){
+                this->state = StateType::ALARM;
+                this->board->digitalWrite(this->actuator, 1);
+            }
+        }
+    }
 }
 

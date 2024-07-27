@@ -46,4 +46,10 @@ void Heater::setActuator(Port port){
     this->actuator = this->board->getPort(port);
 }
 
-
+void Heater::updateState(){
+    if (this->getTarget_Temp() > this->getTemp() && this->getState()){
+        this->board->digitalWrite(this->actuator, 1);
+    }
+    else
+        this->board->digitalWrite(this->actuator, 0);
+}

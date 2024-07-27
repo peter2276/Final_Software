@@ -34,6 +34,7 @@ public:
     bool GetLightState(int id);
 
     void CreateController();
+    void updateUtilities();
 
 protected:
     SystemManager();

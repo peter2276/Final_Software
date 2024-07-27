@@ -1,5 +1,7 @@
 #include "arduinouno.h"
 
+#include <cstdlib>
+
 ArduinoUNO::ArduinoUNO() {
     std::string analog = "A";
     std::string digital = "D";
@@ -18,11 +20,12 @@ std::vector<Port> ArduinoUNO::digitalPorts;
 std::vector<Port> ArduinoUNO::analogPorts;
 
 float ArduinoUNO::analogRead(Port* port){
-    return 0; // stubbed
+    return float((rand() % 3) + 20); //random
+    //return 20; // stubbed
 }
 
 bool ArduinoUNO::digitalRead(Port* port){
-    return 0; // stubbed
+    return 1; // stubbed
 }
 
 void ArduinoUNO::analogWrite(Port* port, float value){

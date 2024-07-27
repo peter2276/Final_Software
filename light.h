@@ -12,6 +12,7 @@ public:
     void setActuatorOn();
     void setActuatorOff();
     bool getState();
+    void updateState() override;
 private:
     Port *actuator;
     bool state;

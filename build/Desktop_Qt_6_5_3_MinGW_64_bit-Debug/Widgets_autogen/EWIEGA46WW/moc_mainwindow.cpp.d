@@ -1,5 +1,6 @@
 C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/mainwindow.h \
   C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final_Software/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractitemmodel.h \
@@ -12,6 +13,7 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final
   C:/Qt/6.5.3/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -98,6 +100,7 @@ C:/Users/Usuario/Documents/Franco/uni/5to/arq\ de\ software/Trabajo\ final/Final
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \

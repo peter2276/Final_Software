@@ -26,3 +26,7 @@ void Light::setActuatorOff(){
 bool Light::getState(){
     return this->state;
 }
+
+void Light::updateState(){
+    this->board->digitalWrite(this->actuator, this->state);
+}

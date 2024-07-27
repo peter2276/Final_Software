@@ -14,6 +14,7 @@ public:
     int getTarget_Temp();
     void setSensor(Port port);
     void setActuator(Port port);
+    void updateState() override;
     ~Heater();
 protected:
     Heater();

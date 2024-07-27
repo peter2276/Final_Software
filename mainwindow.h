@@ -6,6 +6,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QListWidget>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -42,10 +43,11 @@ private slots:
     void createlights(QString port, QString name);
 
     void on_LightsCreateButton_clicked();
-
     void on_LightsListWidget_itemActivated(QListWidgetItem *item);
-
     void on_LightsDeleteButton_clicked();
+
+    void updateController();
+    void updateWindow();
 
 private:
     Ui::MainWindow *ui;
@@ -62,5 +64,7 @@ private:
     QLabel *heater_objtemp_label;
     QLabel *heater_temp_label;
     QListWidget *lights_list;
+    QTimer *controller_clock;
+    QTimer *window_clock;
 };
 #endif // MAINWINDOW_H
