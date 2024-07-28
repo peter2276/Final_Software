@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+
 set(PROJECT_SOURCES
         src/main.cpp
         src/mainwindow.cpp
@@ -20,6 +21,7 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    set(app_icon_resource_windows "${CMAKE_CURRENT_SOURCE_DIR}/casa.rc")
     qt_add_executable(Widgets
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
@@ -40,6 +42,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         src/dialogtwotexts.h src/dialogtwotexts.cpp src/dialogtwotexts.ui
         src/arduinouno.h src/arduinouno.cpp
         src/alarm.cpp src/alarm.h src/arduinouno.cpp src/arduinouno.h src/controller.h src/dialogonetext.cpp src/dialogonetext.h src/dialogonetext.ui src/dialogtwotexts.cpp src/dialogtwotexts.h src/dialogtwotexts.ui src/heater.cpp src/heater.h src/light.cpp src/light.h src/main.cpp src/mainwindow.cpp src/mainwindow.h src/mainwindow.ui src/port.cpp src/port.h src/systemmanager.cpp src/systemmanager.h src/utility.cpp src/utility.h
+        favicon.rc
 
     )
 # Define target properties for Android with Qt 6 as:
