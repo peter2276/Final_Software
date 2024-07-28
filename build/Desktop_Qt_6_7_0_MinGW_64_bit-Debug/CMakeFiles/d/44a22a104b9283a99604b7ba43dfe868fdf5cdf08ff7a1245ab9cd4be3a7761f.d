@@ -1,4 +1,5 @@
 Widgets_autogen/timestamp: \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -13,6 +14,7 @@ Widgets_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -105,6 +107,7 @@ Widgets_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -553,33 +556,33 @@ Widgets_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/CMakeLists.txt \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   Widgets_autogen/moc_predefs.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.ui \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.ui \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/main.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.ui \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp \
-  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/alarm.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/alarm.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/arduinouno.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/arduinouno.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/controller.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogonetext.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogonetext.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogonetext.ui \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogtwotexts.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogtwotexts.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogtwotexts.ui \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/heater.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/heater.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/light.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/light.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/main.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/mainwindow.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/mainwindow.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/mainwindow.ui \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/port.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/port.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/systemmanager.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/systemmanager.h \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/utility.cpp \
+  C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/utility.h

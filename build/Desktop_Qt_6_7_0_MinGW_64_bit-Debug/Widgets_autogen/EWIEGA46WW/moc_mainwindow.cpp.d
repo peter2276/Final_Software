@@ -1,5 +1,6 @@
 C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.h \
   C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/moc_predefs.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -14,6 +15,7 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_
   C:/Qt/6.7.0/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -106,6 +108,7 @@ C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \

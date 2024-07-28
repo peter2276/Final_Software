@@ -255,69 +255,69 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/alarm.h",
 			"MU",
-			"EWIEGA46WW/moc_alarm.cpp",
+			"UVLADIE3JM/moc_alarm.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/arduinouno.h",
 			"MU",
-			"EWIEGA46WW/moc_arduinouno.cpp",
+			"UVLADIE3JM/moc_arduinouno.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/controller.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/controller.h",
 			"MU",
-			"EWIEGA46WW/moc_controller.cpp",
+			"UVLADIE3JM/moc_controller.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogonetext.h",
 			"MU",
-			"EWIEGA46WW/moc_dialogonetext.cpp",
+			"UVLADIE3JM/moc_dialogonetext.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogtwotexts.h",
 			"MU",
-			"EWIEGA46WW/moc_dialogtwotexts.cpp",
+			"UVLADIE3JM/moc_dialogtwotexts.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/heater.h",
 			"MU",
-			"EWIEGA46WW/moc_heater.cpp",
+			"UVLADIE3JM/moc_heater.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/light.h",
 			"MU",
-			"EWIEGA46WW/moc_light.cpp",
+			"UVLADIE3JM/moc_light.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/port.h",
 			"MU",
-			"EWIEGA46WW/moc_port.cpp",
+			"UVLADIE3JM/moc_port.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/systemmanager.h",
 			"MU",
-			"EWIEGA46WW/moc_systemmanager.cpp",
+			"UVLADIE3JM/moc_systemmanager.cpp",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.h",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/utility.h",
 			"MU",
-			"EWIEGA46WW/moc_utility.cpp",
+			"UVLADIE3JM/moc_utility.cpp",
 			null
 		]
 	],
@@ -393,57 +393,57 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/alarm.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/alarm.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/arduinouno.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/arduinouno.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogonetext.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogonetext.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/dialogtwotexts.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/dialogtwotexts.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/heater.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/heater.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/light.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/light.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/main.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/mainwindow.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/port.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/port.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/systemmanager.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/systemmanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/utility.cpp",
+			"C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/src/utility.cpp",
 			"MU",
 			null
 		]

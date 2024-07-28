@@ -13,32 +13,32 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        src/main.cpp
+        src/mainwindow.cpp
+        src/mainwindow.h
+        src/mainwindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Widgets
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        alarm.h alarm.cpp
-        heater.h heater.cpp
-        light.h light.cpp
-        controller.h
-        systemmanager.h systemmanager.cpp
-        port.h port.cpp
+        src/alarm.h src/alarm.cpp
+        src/heater.h src/heater.cpp
+        src/light.h src/light.cpp
+        src/controller.h
+        src/systemmanager.h src/systemmanager.cpp
+        src/port.h src/port.cpp
 
-        utility.h utility.cpp
-
-
+        src/utility.h src/utility.cpp
 
 
 
-        dialogonetext.h dialogonetext.cpp dialogonetext.ui
-        dialogtwotexts.h dialogtwotexts.cpp dialogtwotexts.ui
-        arduinouno.h arduinouno.cpp
+
+
+        src/dialogonetext.h src/dialogonetext.cpp src/dialogonetext.ui
+        src/dialogtwotexts.h src/dialogtwotexts.cpp src/dialogtwotexts.ui
+        src/arduinouno.h src/arduinouno.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

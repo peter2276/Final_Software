@@ -154,7 +154,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -162,7 +162,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Sistema de Dom\303\263tica", nullptr));
         AlarmCreateButton->setText(QCoreApplication::translate("MainWindow", "Crear Alarma", nullptr));
         AlarmToggleButton->setText(QCoreApplication::translate("MainWindow", "Armar/Desarmar", nullptr));
         AlarmChangepassButton->setText(QCoreApplication::translate("MainWindow", "Cambiar contrase\303\261a", nullptr));
