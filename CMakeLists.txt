@@ -39,6 +39,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         src/dialogonetext.h src/dialogonetext.cpp src/dialogonetext.ui
         src/dialogtwotexts.h src/dialogtwotexts.cpp src/dialogtwotexts.ui
         src/arduinouno.h src/arduinouno.cpp
+        src/alarm.cpp src/alarm.h src/arduinouno.cpp src/arduinouno.h src/controller.h src/dialogonetext.cpp src/dialogonetext.h src/dialogonetext.ui src/dialogtwotexts.cpp src/dialogtwotexts.h src/dialogtwotexts.ui src/heater.cpp src/heater.h src/light.cpp src/light.h src/main.cpp src/mainwindow.cpp src/mainwindow.h src/mainwindow.ui src/port.cpp src/port.h src/systemmanager.cpp src/systemmanager.h src/utility.cpp src/utility.h
 
     )
 # Define target properties for Android with Qt 6 as:

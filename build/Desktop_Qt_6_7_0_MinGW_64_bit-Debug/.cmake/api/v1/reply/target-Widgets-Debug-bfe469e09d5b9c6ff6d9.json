@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 79,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 62,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
@@ -368,13 +368,12 @@
 				6,
 				8,
 				10,
-				12,
-				14,
-				16,
-				18,
-				20,
-				23,
-				26
+				13,
+				15,
+				17,
+				19,
+				22,
+				25
 			]
 		}
 	],
@@ -501,13 +500,12 @@
 				6,
 				8,
 				10,
-				12,
-				14,
-				16,
-				18,
-				20,
-				23,
-				26
+				13,
+				15,
+				17,
+				19,
+				22,
+				25
 			]
 		},
 		{
@@ -519,15 +517,15 @@
 				7,
 				9,
 				11,
-				13,
-				15,
-				17,
-				19,
-				22,
-				25,
+				12,
+				14,
+				16,
+				18,
+				21,
+				24,
+				26,
 				27,
-				28,
-				29
+				28
 			]
 		},
 		{
@@ -535,16 +533,16 @@
 			"sourceIndexes" : 
 			[
 				4,
-				21,
-				24,
-				30
+				20,
+				23,
+				29
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				31
+				30
 			]
 		}
 	],
@@ -560,161 +558,155 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
+			"path" : "src/mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "mainwindow.h",
+			"path" : "src/mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
-			"path" : "mainwindow.ui",
+			"path" : "src/mainwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "alarm.h",
+			"path" : "src/alarm.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "alarm.cpp",
+			"path" : "src/alarm.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "heater.h",
+			"path" : "src/heater.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "heater.cpp",
+			"path" : "src/heater.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "light.h",
+			"path" : "src/light.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "light.cpp",
+			"path" : "src/light.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "controller.h",
+			"path" : "src/controller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/systemmanager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "controller.cpp",
+			"path" : "src/systemmanager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "systemmanager.h",
+			"path" : "src/port.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "systemmanager.cpp",
+			"path" : "src/port.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "port.h",
+			"path" : "src/utility.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "port.cpp",
+			"path" : "src/utility.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "utility.h",
+			"path" : "src/dialogonetext.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "utility.cpp",
+			"path" : "src/dialogonetext.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "dialogonetext.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "dialogonetext.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"path" : "dialogonetext.ui",
+			"path" : "src/dialogonetext.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "dialogtwotexts.h",
+			"path" : "src/dialogtwotexts.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "dialogtwotexts.cpp",
+			"path" : "src/dialogtwotexts.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "dialogtwotexts.ui",
+			"path" : "src/dialogtwotexts.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "arduinouno.h",
+			"path" : "src/arduinouno.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "arduinouno.cpp",
+			"path" : "src/arduinouno.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/ui_mainwindow.h",
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/src/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/ui_dialogonetext.h",
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/src/ui_dialogonetext.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/ui_dialogtwotexts.h",
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/include/src/ui_dialogtwotexts.h",
 			"sourceGroupIndex" : 1
 		},
 		{

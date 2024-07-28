@@ -1,8 +1,8 @@
 # ninja log v5
-19	2606	7438959865372014	Widgets_autogen/timestamp	b7a9ac68072cc3d8
-19	2606	7438959865372014	Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
-19	2606	7438959865372014	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/timestamp	b7a9ac68072cc3d8
-19	2606	7438959865372014	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
+14	750	7438961936079791	Widgets_autogen/timestamp	b7a9ac68072cc3d8
+14	750	7438961936079791	Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
+14	750	7438961936079791	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/timestamp	b7a9ac68072cc3d8
+14	750	7438961936079791	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
 2608	30601	7438960146906574	CMakeFiles/Widgets.dir/Widgets_autogen/mocs_compilation.cpp.obj	93692bc05ba0a322
 3268	17549	7438143670039692	CMakeFiles/Widgets.dir/main.cpp.obj	85143484c9fb8000
 34109	36483	7438960205118570	Widgets.exe	ad316f8d515db4ff
@@ -19,7 +19,7 @@
 3174	15406	7438958935357748	CMakeFiles/Widgets.dir/dialogtwotexts.cpp.obj	f04e9e3c9c8c0b36
 3249	15502	7438958936342853	CMakeFiles/Widgets.dir/dialogonetext.cpp.obj	d02cd738978501ee
 7655	10667	7438143601028884	CMakeFiles/Widgets.dir/arduinouno.cpp.obj	c42b4df46d15c7d8
-15	1857	7438961927710132	build.ninja	6bf7634b380e8f0
+38	2268	7438963175484812	build.ninja	6bf7634b380e8f0
 2773	6091	7438959901576055	CMakeFiles/Widgets.dir/src/heater.cpp.obj	c5c6ee2adf8da481
 2820	6259	7438959902366015	CMakeFiles/Widgets.dir/src/utility.cpp.obj	c72ef0c2de01f565
 2682	6528	7438959905585836	CMakeFiles/Widgets.dir/src/alarm.cpp.obj	d68651f76be356a0
@@ -29,8 +29,3 @@
 19584	29839	7438960137094960	CMakeFiles/Widgets.dir/src/arduinouno.cpp.obj	f47bd8a15c266f6b
 2643	29885	7438960139164831	CMakeFiles/Widgets.dir/src/main.cpp.obj	492fa630efde0fb4
 6094	31739	7438960158649363	CMakeFiles/Widgets.dir/src/dialogtwotexts.cpp.obj	95c8e00f659f52da
-38	2268	7438961927710132	build.ninja	6bf7634b380e8f0
-14	750	7438961936079791	Widgets_autogen/timestamp	b7a9ac68072cc3d8
-14	750	7438961936079791	Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
-14	750	7438961936079791	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/timestamp	b7a9ac68072cc3d8
-14	750	7438961936079791	C:/Users/pdelacruz/Documents/Universidad/Software/QT/Widgets/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Widgets_autogen/mocs_compilation.cpp	b7a9ac68072cc3d8
